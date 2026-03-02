@@ -1,0 +1,4119 @@
+[
+  {
+    "policy_id": "SLI-2298741",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-882341",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-445521",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-921004",
+    "propensity_score": 54,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-448293",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-850195",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-698054",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-644673",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-958043",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-957500",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-606152",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-571698",
+    "propensity_score": 61,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-241166",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-470670",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-898963",
+    "propensity_score": 14,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-939132",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-432609",
+    "propensity_score": 40,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-770857",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-961706",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-713311",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-598059",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-985917",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-126698",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-574923",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-519691",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-730195",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-921499",
+    "propensity_score": 45,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-886240",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-251131",
+    "propensity_score": 13,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-582591",
+    "propensity_score": 13,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-261543",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-477053",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-890019",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-849396",
+    "propensity_score": 53,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-193671",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-643739",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-835542",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-358117",
+    "propensity_score": 40,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-721299",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-631754",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-119111",
+    "propensity_score": 51,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-730110",
+    "propensity_score": 60,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-336093",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-202091",
+    "propensity_score": 51,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-670075",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-935187",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-768542",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-641694",
+    "propensity_score": 11,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-494127",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-761259",
+    "propensity_score": 42,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-137122",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-839033",
+    "propensity_score": 81,
+    "risk_level": "HIGH",
+    "factors": [
+      "5 late/missed payments",
+      "1 prior complaints",
+      "High lapse risk profile"
+    ]
+  },
+  {
+    "policy_id": "SLI-568797",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-348586",
+    "propensity_score": 47,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-955736",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-847169",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-867571",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-287367",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-253174",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-171387",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-457871",
+    "propensity_score": 10,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-369636",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-735276",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-451799",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-378695",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-766165",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-545190",
+    "propensity_score": 82,
+    "risk_level": "HIGH",
+    "factors": [
+      "6 late/missed payments",
+      "High lapse risk profile"
+    ]
+  },
+  {
+    "policy_id": "SLI-847496",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-748765",
+    "propensity_score": 47,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-502170",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-862533",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-837672",
+    "propensity_score": 64,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-585661",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-649669",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-411272",
+    "propensity_score": 8,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-442739",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-639051",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-496851",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-526801",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-624337",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-908301",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-144697",
+    "propensity_score": 13,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-173254",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-726993",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-538726",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-253657",
+    "propensity_score": 42,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-767210",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-757156",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-720514",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-372077",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-994354",
+    "propensity_score": 54,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-234155",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-983772",
+    "propensity_score": 6,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-811168",
+    "propensity_score": 40,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-645005",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-939496",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-847054",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-468197",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-673828",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-517700",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-701852",
+    "propensity_score": 51,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "5 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-316504",
+    "propensity_score": 50,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-839885",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-791720",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-232020",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-440963",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-524349",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-950418",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-196199",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-392186",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-497402",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-797642",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-553171",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-802554",
+    "propensity_score": 7,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-799276",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-879610",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-676712",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-203926",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-396995",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-150069",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-210940",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-827208",
+    "propensity_score": 40,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-845842",
+    "propensity_score": 14,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-795719",
+    "propensity_score": 8,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-582451",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-833298",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-756664",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-632919",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-148370",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-431959",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-524512",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-329138",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-811799",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-678235",
+    "propensity_score": 45,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-599136",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-541742",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-814087",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-464963",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-870036",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-700006",
+    "propensity_score": 9,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-277235",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-753914",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-975908",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-461221",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-586221",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-873068",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-910955",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-405643",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-775984",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-351249",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-265094",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-251179",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-137936",
+    "propensity_score": 49,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-744223",
+    "propensity_score": 61,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-820822",
+    "propensity_score": 45,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-632626",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-582971",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-844086",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-546393",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-644760",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-739441",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-688696",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-831537",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-871658",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-324654",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-103060",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-732646",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-143041",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-666142",
+    "propensity_score": 11,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-178724",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-808033",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-260946",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-677314",
+    "propensity_score": 42,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-659667",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-478892",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-830248",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-779049",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-125902",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-131454",
+    "propensity_score": 48,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-715522",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-413760",
+    "propensity_score": 7,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-896679",
+    "propensity_score": 12,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-811907",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-468364",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-559594",
+    "propensity_score": 48,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-243935",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-626166",
+    "propensity_score": 12,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-132328",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-248634",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-868803",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-746469",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-550118",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-568498",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-594671",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-441122",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-660281",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-651355",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-655908",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-359731",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-406022",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-799908",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-914521",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-444465",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-534995",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-734928",
+    "propensity_score": 46,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-825817",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-421162",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-959983",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-396131",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-335479",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-505106",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-330003",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-566912",
+    "propensity_score": 42,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-247970",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-790645",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-112186",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-919051",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-101911",
+    "propensity_score": 61,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-640916",
+    "propensity_score": 45,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-281380",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-964621",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-906958",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-359226",
+    "propensity_score": 13,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-441268",
+    "propensity_score": 11,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-687213",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-689015",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-835090",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-481232",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-606240",
+    "propensity_score": 55,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-375309",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-589019",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-875235",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-909962",
+    "propensity_score": 7,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-768425",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-550341",
+    "propensity_score": 10,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-791391",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-893765",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-469677",
+    "propensity_score": 24,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-400970",
+    "propensity_score": 12,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-119921",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-107008",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-434210",
+    "propensity_score": 55,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-394380",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-965078",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-273735",
+    "propensity_score": 10,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-701900",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-111262",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-175367",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-255007",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-403349",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-766659",
+    "propensity_score": 11,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-449282",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-752212",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-138491",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-728715",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-567332",
+    "propensity_score": 49,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-548469",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-786978",
+    "propensity_score": 11,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-859672",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-706825",
+    "propensity_score": 48,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-247270",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-232929",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-836011",
+    "propensity_score": 66,
+    "risk_level": "HIGH",
+    "factors": [
+      "3 late/missed payments",
+      "2 prior complaints",
+      "High lapse risk profile"
+    ]
+  },
+  {
+    "policy_id": "SLI-162933",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-774863",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-953606",
+    "propensity_score": 55,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-128401",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-664134",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-789056",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-120765",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-504784",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-855703",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-246553",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-886240",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-974749",
+    "propensity_score": 14,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-608510",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-110283",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-190459",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-379162",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-591643",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-617582",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-830211",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-597341",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-684092",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-632873",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-803155",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-276999",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-751278",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-770121",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-593497",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-202445",
+    "propensity_score": 6,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-603472",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-358314",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-545380",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-537358",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-305588",
+    "propensity_score": 45,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-852676",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-990383",
+    "propensity_score": 12,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-929303",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-604861",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-151604",
+    "propensity_score": 59,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-357496",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-902301",
+    "propensity_score": 53,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-192270",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-835601",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-772780",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-822106",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-489866",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-846157",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-804340",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-770836",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-400316",
+    "propensity_score": 40,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-722930",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-890898",
+    "propensity_score": 45,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-824644",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-974464",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-849677",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-163833",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-322673",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-668704",
+    "propensity_score": 42,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-135022",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-936121",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-564112",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-835759",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-532237",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-563663",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-903452",
+    "propensity_score": 7,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-498723",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-757601",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-265309",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-473091",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-407028",
+    "propensity_score": 7,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-371893",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-411562",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-515093",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-595486",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-280833",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-475423",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-626922",
+    "propensity_score": 45,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-414217",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-593937",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-234007",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-977426",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-597108",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-110808",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-337809",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-934526",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-109120",
+    "propensity_score": 51,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-258060",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-908638",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-679160",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-526474",
+    "propensity_score": 59,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-236589",
+    "propensity_score": 58,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-362859",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-604803",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-549897",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-881271",
+    "propensity_score": 42,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-486133",
+    "propensity_score": 70,
+    "risk_level": "HIGH",
+    "factors": [
+      "4 late/missed payments",
+      "High lapse risk profile"
+    ]
+  },
+  {
+    "policy_id": "SLI-436663",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-316533",
+    "propensity_score": 21,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-418005",
+    "propensity_score": 51,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-745771",
+    "propensity_score": 53,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-577492",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-603496",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-590618",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-583728",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-844014",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-714448",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-844940",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-898072",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-954452",
+    "propensity_score": 53,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-174451",
+    "propensity_score": 11,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-855457",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-620361",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-473124",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-856751",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-919397",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-929407",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-837810",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-949748",
+    "propensity_score": 60,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-341095",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-213405",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-560075",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-726872",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-388077",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-157738",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-309761",
+    "propensity_score": 46,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-909995",
+    "propensity_score": 13,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-738612",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-425674",
+    "propensity_score": 56,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-472966",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-495300",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-700941",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-332455",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-928234",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-675295",
+    "propensity_score": 46,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-817391",
+    "propensity_score": 57,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-620787",
+    "propensity_score": 10,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-267862",
+    "propensity_score": 40,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-814752",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-480386",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-509729",
+    "propensity_score": 7,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-610512",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-939169",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-273943",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-545165",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-863477",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-991564",
+    "propensity_score": 59,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-822679",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-397858",
+    "propensity_score": 76,
+    "risk_level": "HIGH",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints",
+      "High lapse risk profile"
+    ]
+  },
+  {
+    "policy_id": "SLI-435908",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-112402",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-756917",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-623123",
+    "propensity_score": 49,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-285429",
+    "propensity_score": 46,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-912736",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-647014",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-687104",
+    "propensity_score": 30,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-155449",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-831322",
+    "propensity_score": 15,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-872032",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-893385",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-900175",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-359381",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-924953",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-110641",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-382130",
+    "propensity_score": 10,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-420367",
+    "propensity_score": 33,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-821803",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-244051",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-797603",
+    "propensity_score": 22,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-672998",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-218506",
+    "propensity_score": 10,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-512803",
+    "propensity_score": 48,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-519027",
+    "propensity_score": 49,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-553360",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-866553",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-635591",
+    "propensity_score": 16,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-927367",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-786136",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-998777",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-853798",
+    "propensity_score": 46,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-395828",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-986365",
+    "propensity_score": 14,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-997699",
+    "propensity_score": 48,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-607151",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-990216",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-306376",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-678410",
+    "propensity_score": 55,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-628329",
+    "propensity_score": 59,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "4 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-266171",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-759889",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-671597",
+    "propensity_score": 32,
+    "risk_level": "LOW",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-851912",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-374049",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-507129",
+    "propensity_score": 48,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-356282",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-970583",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-964777",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-852455",
+    "propensity_score": 54,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-345655",
+    "propensity_score": 46,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-221643",
+    "propensity_score": 34,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-963401",
+    "propensity_score": 54,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-842182",
+    "propensity_score": 23,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-511925",
+    "propensity_score": 35,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-206141",
+    "propensity_score": 13,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-194887",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-427745",
+    "propensity_score": 20,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-916873",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-265124",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-690360",
+    "propensity_score": 41,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-917029",
+    "propensity_score": 38,
+    "risk_level": "LOW",
+    "factors": [
+      "3 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-401174",
+    "propensity_score": 27,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-950677",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-608711",
+    "propensity_score": 17,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-152768",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-383702",
+    "propensity_score": 60,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "3 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-307113",
+    "propensity_score": 14,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-188731",
+    "propensity_score": 28,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-770402",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-863645",
+    "propensity_score": 13,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-566377",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-114486",
+    "propensity_score": 42,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 prior complaints",
+      "Short tenure"
+    ]
+  },
+  {
+    "policy_id": "SLI-384139",
+    "propensity_score": 5,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-127854",
+    "propensity_score": 51,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "1 late/missed payments",
+      "2 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-402625",
+    "propensity_score": 9,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-764946",
+    "propensity_score": 36,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-414298",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-973722",
+    "propensity_score": 43,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-601179",
+    "propensity_score": 25,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-169895",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-606602",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-441896",
+    "propensity_score": 18,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-825226",
+    "propensity_score": 37,
+    "risk_level": "LOW",
+    "factors": [
+      "2 late/missed payments",
+      "1 prior complaints"
+    ]
+  },
+  {
+    "policy_id": "SLI-843507",
+    "propensity_score": 39,
+    "risk_level": "LOW",
+    "factors": [
+      "4 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-236087",
+    "propensity_score": 26,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-408416",
+    "propensity_score": 29,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-865665",
+    "propensity_score": 31,
+    "risk_level": "LOW",
+    "factors": [
+      "1 late/missed payments"
+    ]
+  },
+  {
+    "policy_id": "SLI-180181",
+    "propensity_score": 19,
+    "risk_level": "LOW",
+    "factors": [
+      "No significant risk factors"
+    ]
+  },
+  {
+    "policy_id": "SLI-263898",
+    "propensity_score": 44,
+    "risk_level": "MEDIUM",
+    "factors": [
+      "2 late/missed payments"
+    ]
+  }
+]

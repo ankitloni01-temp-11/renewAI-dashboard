@@ -1,0 +1,1952 @@
+[
+  {
+    "policy_id": "SLI-868803",
+    "customer_id": "CUST-00166",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-01T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-01-31T05:16:22.469801",
+    "updated_at": "2026-03-01T16:16:22.469801",
+    "paid_at": "2026-03-01T16:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "3c831ef8-b6d6-4b1b-a2b8-ccb447a584c9"
+  },
+  {
+    "policy_id": "SLI-893385",
+    "customer_id": "CUST-00223",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-28T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-27T05:16:22.469801",
+    "updated_at": "2026-03-01T07:16:22.469801",
+    "paid_at": "2026-03-01T07:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "058fc090-2164-46d4-b702-e31a4c787b5f"
+  },
+  {
+    "policy_id": "SLI-392186",
+    "customer_id": "CUST-00143",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-22T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-21T05:16:22.469801",
+    "updated_at": "2026-03-01T20:16:22.469801",
+    "paid_at": "2026-03-01T20:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "315638bc-7bda-4591-ab18-7e12a9598339"
+  },
+  {
+    "policy_id": "SLI-568797",
+    "customer_id": "CUST-00440",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-13T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-12T05:16:22.469801",
+    "updated_at": "2026-03-01T07:16:22.469801",
+    "paid_at": "2026-03-01T07:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "9a20686e-08ea-42e4-88e0-cb0bdb651c5b"
+  },
+  {
+    "policy_id": "SLI-604861",
+    "customer_id": "CUST-00305",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-03T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-02T05:16:22.469801",
+    "updated_at": "2026-03-01T22:16:22.469801",
+    "paid_at": "2026-03-01T22:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "ed444b70-2e21-4e4d-9b5c-e955a73151ea"
+  },
+  {
+    "policy_id": "SLI-407028",
+    "customer_id": "CUST-00467",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-02T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-01T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": "2026-03-01T15:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "1efadd9c-27f0-4c5a-b750-4d16dc2d1ca6"
+  },
+  {
+    "policy_id": "SLI-261543",
+    "customer_id": "CUST-00414",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-26T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-25T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": "2026-03-01T15:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "550fd4ca-774b-407b-97fb-dc0783ecf343"
+  },
+  {
+    "policy_id": "SLI-202445",
+    "customer_id": "CUST-00104",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-07T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-06T05:16:22.469801",
+    "updated_at": "2026-03-01T09:16:22.469801",
+    "paid_at": "2026-03-01T09:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "60f3ae34-b46b-46d2-8bf5-2fbbe58c9c7c"
+  },
+  {
+    "policy_id": "SLI-411562",
+    "customer_id": "CUST-00412",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-06T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.9,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-05T05:16:22.469801",
+    "updated_at": "2026-03-01T20:16:22.469801",
+    "paid_at": "2026-03-01T20:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "146222d7-7195-48c0-ad7c-e59f390e1159"
+  },
+  {
+    "policy_id": "SLI-726872",
+    "customer_id": "CUST-00143",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-12T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.7,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-11T05:16:22.469801",
+    "updated_at": "2026-03-01T10:16:22.469801",
+    "paid_at": "2026-03-01T10:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "b6c13852-ce67-430d-a770-8d38720fe418"
+  },
+  {
+    "policy_id": "SLI-965078",
+    "customer_id": "CUST-00312",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-09T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-08T05:16:22.469801",
+    "updated_at": "2026-03-01T11:16:22.469801",
+    "paid_at": "2026-03-01T11:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "5ff63b26-42ec-4314-a7d2-c3da426f2ece"
+  },
+  {
+    "policy_id": "SLI-234007",
+    "customer_id": "CUST-00121",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-22T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.3,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-21T05:16:22.469801",
+    "updated_at": "2026-03-01T23:16:22.469801",
+    "paid_at": "2026-03-01T23:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "ae2a2773-c021-463b-b499-ba8f24022f40"
+  },
+  {
+    "policy_id": "SLI-265124",
+    "customer_id": "CUST-00378",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-22T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-21T05:16:22.469801",
+    "updated_at": "2026-03-01T18:16:22.469801",
+    "paid_at": "2026-03-01T18:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "3a6452ad-6337-4ed2-89ac-1240792cce83"
+  },
+  {
+    "policy_id": "SLI-825226",
+    "customer_id": "CUST-00273",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-11T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-10T05:16:22.469801",
+    "updated_at": "2026-03-01T05:16:22.469801",
+    "paid_at": "2026-03-01T05:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "1ea0d3ee-19b8-4426-b463-958cb9da4aa0"
+  },
+  {
+    "policy_id": "SLI-953606",
+    "customer_id": "CUST-00315",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-05T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.9,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-04T05:16:22.469801",
+    "updated_at": "2026-03-02T02:16:22.469801",
+    "paid_at": "2026-03-02T02:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "edfeeb06-94d1-4696-a7c5-11725c7057d9"
+  },
+  {
+    "policy_id": "SLI-886240",
+    "customer_id": "CUST-00353",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-23T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.0,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-22T05:16:22.469801",
+    "updated_at": "2026-03-01T22:16:22.469801",
+    "paid_at": "2026-03-01T22:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "1347fb41-75b1-4fee-9859-a966590dceaa"
+  },
+  {
+    "policy_id": "SLI-631754",
+    "customer_id": "CUST-00431",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-28T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-27T05:16:22.469801",
+    "updated_at": "2026-03-01T14:16:22.469801",
+    "paid_at": "2026-03-01T14:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "827c91be-03b4-4d94-9a48-eb739b4dd5c0"
+  },
+  {
+    "policy_id": "SLI-371893",
+    "customer_id": "CUST-00048",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-24T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-23T05:16:22.469801",
+    "updated_at": "2026-03-01T22:16:22.469801",
+    "paid_at": "2026-03-01T22:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "fc9e27fe-aadb-415d-a241-f342a8998ac9"
+  },
+  {
+    "policy_id": "SLI-791391",
+    "customer_id": "CUST-00097",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-28T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.0,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-27T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": "2026-03-01T15:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "21f73947-8f92-44c0-b2fe-6ed63eb4406c"
+  },
+  {
+    "policy_id": "SLI-867571",
+    "customer_id": "CUST-00212",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-06T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-05T05:16:22.469801",
+    "updated_at": "2026-03-01T22:16:22.469801",
+    "paid_at": "2026-03-01T22:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "b7b5547c-0ea6-4c5e-aa09-44eb6a80e202"
+  },
+  {
+    "policy_id": "SLI-863645",
+    "customer_id": "CUST-00165",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-02T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-01T05:16:22.469801",
+    "updated_at": "2026-03-01T14:16:22.469801",
+    "paid_at": "2026-03-01T14:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "38246aac-e7b2-47ef-8906-07baf518ca53"
+  },
+  {
+    "policy_id": "SLI-307113",
+    "customer_id": "CUST-00103",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-21T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.7,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-20T05:16:22.469801",
+    "updated_at": "2026-03-01T05:16:22.469801",
+    "paid_at": "2026-03-01T05:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "1dbdd709-fb05-4c83-9b84-32d32ae997fb"
+  },
+  {
+    "policy_id": "SLI-714448",
+    "customer_id": "CUST-00154",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-11T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.8,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-10T05:16:22.469801",
+    "updated_at": "2026-03-01T16:16:22.469801",
+    "paid_at": "2026-03-01T16:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "d6d6c5ab-1d65-4716-936a-42aad9b0ddcf"
+  },
+  {
+    "policy_id": "SLI-369636",
+    "customer_id": "CUST-00326",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-10T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-09T05:16:22.469801",
+    "updated_at": "2026-03-01T13:16:22.469801",
+    "paid_at": "2026-03-01T13:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "e742b842-61bb-4c72-aa84-c0fd143efc1b"
+  },
+  {
+    "policy_id": "SLI-730195",
+    "customer_id": "CUST-00338",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-13T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-12T05:16:22.469801",
+    "updated_at": "2026-03-02T04:16:22.469801",
+    "paid_at": "2026-03-02T04:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "344b05c5-f408-4f19-9241-6fab36e3753a"
+  },
+  {
+    "policy_id": "SLI-830211",
+    "customer_id": "CUST-00370",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-12T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-11T05:16:22.469801",
+    "updated_at": "2026-03-01T23:16:22.469801",
+    "paid_at": "2026-03-01T23:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "1bc065f9-4d31-49c2-b10c-35be06cbc3b8"
+  },
+  {
+    "policy_id": "SLI-273943",
+    "customer_id": "CUST-00342",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-21T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.3,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-20T05:16:22.469801",
+    "updated_at": "2026-03-01T07:16:22.469801",
+    "paid_at": "2026-03-01T07:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "96a15388-f315-4176-9f87-667c92320c6a"
+  },
+  {
+    "policy_id": "SLI-125902",
+    "customer_id": "CUST-00245",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-02T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.8,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-01T05:16:22.469801",
+    "updated_at": "2026-03-01T19:16:22.469801",
+    "paid_at": "2026-03-01T19:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "74cd6c4a-f554-4a4c-b206-a1ea34eb19db"
+  },
+  {
+    "policy_id": "SLI-847496",
+    "customer_id": "CUST-00298",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-22T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.7,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-21T05:16:22.469801",
+    "updated_at": "2026-03-01T19:16:22.469801",
+    "paid_at": "2026-03-01T19:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "160a6395-035e-4b4d-8ebd-71d71acd2a20"
+  },
+  {
+    "policy_id": "SLI-432609",
+    "customer_id": "CUST-00079",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-01T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-01-31T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": "2026-03-01T15:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "eec85fa9-8911-4aee-b5fc-79f039e29992"
+  },
+  {
+    "policy_id": "SLI-119921",
+    "customer_id": "CUST-00033",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-21T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-20T05:16:22.469801",
+    "updated_at": "2026-03-01T07:16:22.469801",
+    "paid_at": "2026-03-01T07:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "87828182-4b7c-4fb6-9b6e-9d0623d1124f"
+  },
+  {
+    "policy_id": "SLI-835542",
+    "customer_id": "CUST-00388",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-03T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.6,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-02T05:16:22.469801",
+    "updated_at": "2026-03-01T16:16:22.469801",
+    "paid_at": "2026-03-01T16:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "ee6edcff-d7dc-4d2e-881c-a41040b625f5"
+  },
+  {
+    "policy_id": "SLI-601179",
+    "customer_id": "CUST-00016",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-06T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-05T05:16:22.469801",
+    "updated_at": "2026-03-01T16:16:22.469801",
+    "paid_at": "2026-03-01T16:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "a2d21831-b293-484c-a9f9-513ec06ee17a"
+  },
+  {
+    "policy_id": "SLI-473091",
+    "customer_id": "CUST-00350",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-04T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.7,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-03T05:16:22.469801",
+    "updated_at": "2026-03-01T14:16:22.469801",
+    "paid_at": "2026-03-01T14:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "6485c7eb-71ac-4760-a638-7a194ed1ed3b"
+  },
+  {
+    "policy_id": "SLI-505106",
+    "customer_id": "CUST-00252",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-09T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.9,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-08T05:16:22.469801",
+    "updated_at": "2026-03-01T07:16:22.469801",
+    "paid_at": "2026-03-01T07:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "d9d7c332-e29b-4b9b-ab99-630bcc0afb7c"
+  },
+  {
+    "policy_id": "SLI-628329",
+    "customer_id": "CUST-00309",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-27T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.6,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-26T05:16:22.469801",
+    "updated_at": "2026-03-01T18:16:22.469801",
+    "paid_at": "2026-03-01T18:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "16cffecf-8601-4500-bdf4-54a8da362bb9"
+  },
+  {
+    "policy_id": "SLI-814752",
+    "customer_id": "CUST-00092",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-06T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-05T05:16:22.469801",
+    "updated_at": "2026-03-01T12:16:22.469801",
+    "paid_at": "2026-03-01T12:16:22.469801",
+    "payment_amount": 18000,
+    "attempt_count": 1,
+    "trace_id": "ba4b8f11-7a88-4827-8291-58541ced6176"
+  },
+  {
+    "policy_id": "SLI-890898",
+    "customer_id": "CUST-00374",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-02T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-01T05:16:22.469801",
+    "updated_at": "2026-03-01T20:16:22.469801",
+    "paid_at": "2026-03-01T20:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "621c560f-4a1c-4407-879d-15956abf1c7a"
+  },
+  {
+    "policy_id": "SLI-494127",
+    "customer_id": "CUST-00121",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-10T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-09T05:16:22.469801",
+    "updated_at": "2026-03-01T17:16:22.469801",
+    "paid_at": "2026-03-01T17:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "216bb515-b317-4b48-b537-7c938bb3ea5f"
+  },
+  {
+    "policy_id": "SLI-678235",
+    "customer_id": "CUST-00277",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-11T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-10T05:16:22.469801",
+    "updated_at": "2026-03-01T14:16:22.469801",
+    "paid_at": "2026-03-01T14:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "5aab94c4-7c71-4939-ac18-4850182d94d2"
+  },
+  {
+    "policy_id": "SLI-111262",
+    "customer_id": "CUST-00015",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-27T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.0,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-26T05:16:22.469801",
+    "updated_at": "2026-03-02T01:16:22.469801",
+    "paid_at": "2026-03-02T01:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "04ccf744-0222-4fc3-bb8d-bf8a30a6d29c"
+  },
+  {
+    "policy_id": "SLI-281380",
+    "customer_id": "CUST-00314",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-02T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-01T05:16:22.469801",
+    "updated_at": "2026-03-02T03:16:22.469801",
+    "paid_at": "2026-03-02T03:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "69d8047a-96fa-43e9-b51a-c2ab3f3ffecf"
+  },
+  {
+    "policy_id": "SLI-896679",
+    "customer_id": "CUST-00182",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-09T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.8,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-08T05:16:22.469801",
+    "updated_at": "2026-03-01T13:16:22.469801",
+    "paid_at": "2026-03-01T13:16:22.469801",
+    "payment_amount": 36000,
+    "attempt_count": 1,
+    "trace_id": "20365994-a55c-4e9f-8ac0-49ac0770fa31"
+  },
+  {
+    "policy_id": "SLI-886240",
+    "customer_id": "CUST-00325",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-17T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.9,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-16T05:16:22.469801",
+    "updated_at": "2026-03-01T17:16:22.469801",
+    "paid_at": "2026-03-01T17:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "1420b043-a57d-4cfa-bfd6-1142a58a25d7"
+  },
+  {
+    "policy_id": "SLI-756664",
+    "customer_id": "CUST-00137",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-18T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-17T05:16:22.469801",
+    "updated_at": "2026-03-01T21:16:22.469801",
+    "paid_at": "2026-03-01T21:16:22.469801",
+    "payment_amount": 12000,
+    "attempt_count": 1,
+    "trace_id": "5c31f83d-1bd2-4bd6-933d-193d9eb66c18"
+  },
+  {
+    "policy_id": "SLI-322673",
+    "customer_id": "CUST-00145",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-01T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.0,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-01-31T05:16:22.469801",
+    "updated_at": "2026-03-01T23:16:22.469801",
+    "paid_at": "2026-03-01T23:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "4f405555-b270-4d2d-b7ec-c9a5dd5d4e51"
+  },
+  {
+    "policy_id": "SLI-280833",
+    "customer_id": "CUST-00027",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-03T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.8,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-02T05:16:22.469801",
+    "updated_at": "2026-03-01T08:16:22.469801",
+    "paid_at": "2026-03-01T08:16:22.469801",
+    "payment_amount": 48000,
+    "attempt_count": 1,
+    "trace_id": "dbabb4d7-11bf-4335-8803-5d6942070d53"
+  },
+  {
+    "policy_id": "SLI-676712",
+    "customer_id": "CUST-00235",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-03T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.9,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-02T05:16:22.469801",
+    "updated_at": "2026-03-02T03:16:22.469801",
+    "paid_at": "2026-03-02T03:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "762b71ae-b16a-4165-b6a0-95bc542c8a8b"
+  },
+  {
+    "policy_id": "SLI-582971",
+    "customer_id": "CUST-00243",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-21T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-20T05:16:22.469801",
+    "updated_at": "2026-03-01T16:16:22.469801",
+    "paid_at": "2026-03-01T16:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "37ee84be-e895-4a36-a0d3-de418d8f67be"
+  },
+  {
+    "policy_id": "SLI-502170",
+    "customer_id": "CUST-00297",
+    "status": "paid",
+    "current_step": "paid",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-28T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-27T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": "2026-03-01T15:16:22.469801",
+    "payment_amount": 24000,
+    "attempt_count": 1,
+    "trace_id": "2680cab5-2604-4bcb-8291-25bf3471220b"
+  },
+  {
+    "policy_id": "SLI-659667",
+    "customer_id": "CUST-00134",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-08T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-07T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "a881be93-2cd9-4b1d-a483-8d3162adf69a"
+  },
+  {
+    "policy_id": "SLI-814087",
+    "customer_id": "CUST-00142",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-05T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.3,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-04T05:16:22.469801",
+    "updated_at": "2026-03-01T06:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "6dc56728-c429-439e-ba37-be400768c28e"
+  },
+  {
+    "policy_id": "SLI-957500",
+    "customer_id": "CUST-00158",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-18T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-17T05:16:22.469801",
+    "updated_at": "2026-03-01T19:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "dc8640d8-b834-419e-9a0f-9f5b38d5fe15"
+  },
+  {
+    "policy_id": "SLI-843507",
+    "customer_id": "CUST-00074",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-13T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.3,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-12T05:16:22.469801",
+    "updated_at": "2026-03-01T07:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "469e3d82-9e5b-406e-9158-eb12c06ce209"
+  },
+  {
+    "policy_id": "SLI-608510",
+    "customer_id": "CUST-00040",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-23T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-22T05:16:22.469801",
+    "updated_at": "2026-03-01T20:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "a730d6d4-802b-4778-9eea-449a1cc05715"
+  },
+  {
+    "policy_id": "SLI-835090",
+    "customer_id": "CUST-00319",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-24T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.1,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-23T05:16:22.469801",
+    "updated_at": "2026-03-01T23:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "ed49f782-b4e1-48b8-8d84-f769a07a9128"
+  },
+  {
+    "policy_id": "SLI-444465",
+    "customer_id": "CUST-00157",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-17T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-16T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "0d3ae3c7-16ed-468b-8408-c1a379543350"
+  },
+  {
+    "policy_id": "SLI-768542",
+    "customer_id": "CUST-00153",
+    "status": "whatsapp_sent",
+    "current_step": "whatsapp_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-25T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-24T05:16:22.469801",
+    "updated_at": "2026-03-01T06:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "8d9ce41c-586b-49b1-b914-bc94fbf42f86"
+  },
+  {
+    "policy_id": "SLI-362859",
+    "customer_id": "CUST-00324",
+    "status": "email_sent",
+    "current_step": "email_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-25T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-24T05:16:22.469801",
+    "updated_at": "2026-03-02T03:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "bd5ff366-c5f0-43ac-855a-2cb684ffb34c"
+  },
+  {
+    "policy_id": "SLI-908301",
+    "customer_id": "CUST-00067",
+    "status": "email_sent",
+    "current_step": "email_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-03-01T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.8,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-28T05:16:22.469801",
+    "updated_at": "2026-03-02T00:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "fbf24cd5-e75a-4076-9436-3922ecc50eed"
+  },
+  {
+    "policy_id": "SLI-772780",
+    "customer_id": "CUST-00015",
+    "status": "email_sent",
+    "current_step": "email_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-10T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-09T05:16:22.469801",
+    "updated_at": "2026-03-01T19:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "f7427f3c-c14a-4edb-a2a4-3a6881d8270d"
+  },
+  {
+    "policy_id": "SLI-144697",
+    "customer_id": "CUST-00413",
+    "status": "email_sent",
+    "current_step": "email_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-10T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.6,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-09T05:16:22.469801",
+    "updated_at": "2026-03-01T19:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "866aa8df-9480-497e-9098-24542b914ceb"
+  },
+  {
+    "policy_id": "SLI-761259",
+    "customer_id": "CUST-00210",
+    "status": "email_sent",
+    "current_step": "email_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-11T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-10T05:16:22.469801",
+    "updated_at": "2026-03-01T20:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "07bfe2c6-55da-4e8f-b884-a7daf48dbeea"
+  },
+  {
+    "policy_id": "SLI-928234",
+    "customer_id": "CUST-00244",
+    "status": "email_sent",
+    "current_step": "email_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-02T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.4,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-01T05:16:22.469801",
+    "updated_at": "2026-03-02T00:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "c30e853c-8c20-41da-abef-61e78ce55977"
+  },
+  {
+    "policy_id": "SLI-152768",
+    "customer_id": "CUST-00301",
+    "status": "email_sent",
+    "current_step": "email_sent",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-23T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-22T05:16:22.469801",
+    "updated_at": "2026-03-01T20:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "0036be23-8296-4f87-8d92-301d96e8dbfd"
+  },
+  {
+    "policy_id": "SLI-837810",
+    "customer_id": "CUST-00358",
+    "status": "voice_called",
+    "current_step": "voice_called",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-11T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-10T05:16:22.469801",
+    "updated_at": "2026-03-01T11:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "07ea04ce-3925-43f6-9fe9-3fff80022eeb"
+  },
+  {
+    "policy_id": "SLI-598059",
+    "customer_id": "CUST-00296",
+    "status": "voice_called",
+    "current_step": "voice_called",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-12T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.9,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-11T05:16:22.469801",
+    "updated_at": "2026-03-01T20:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "7e2b4eaa-eeb5-494d-8e2c-a6d27d15d269"
+  },
+  {
+    "policy_id": "SLI-687104",
+    "customer_id": "CUST-00399",
+    "status": "voice_called",
+    "current_step": "voice_called",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-22T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.6,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-21T05:16:22.469801",
+    "updated_at": "2026-03-01T18:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "7439578f-6d8c-4dcd-8859-b51dfb77fb35"
+  },
+  {
+    "policy_id": "SLI-253657",
+    "customer_id": "CUST-00112",
+    "status": "voice_called",
+    "current_step": "voice_called",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-16T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.8,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-15T05:16:22.469801",
+    "updated_at": "2026-03-01T09:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "ba44f94b-317e-4470-920d-ef9072ac38ef"
+  },
+  {
+    "policy_id": "SLI-606152",
+    "customer_id": "CUST-00263",
+    "status": "voice_called",
+    "current_step": "voice_called",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-27T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.0,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-26T05:16:22.469801",
+    "updated_at": "2026-03-01T13:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "dfc286ba-8b1a-4b22-98f4-69b40c84b6f6"
+  },
+  {
+    "policy_id": "SLI-402625",
+    "customer_id": "CUST-00011",
+    "status": "lapsed",
+    "current_step": "lapsed",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-24T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.6,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-23T05:16:22.469801",
+    "updated_at": "2026-03-01T15:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "82772942-09ac-4eab-8c35-cb46961d739c"
+  },
+  {
+    "policy_id": "SLI-534995",
+    "customer_id": "CUST-00207",
+    "status": "lapsed",
+    "current_step": "lapsed",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-27T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.2,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-26T05:16:22.469801",
+    "updated_at": "2026-03-01T12:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "eadf712b-10dd-439b-9cf0-35038a501074"
+  },
+  {
+    "policy_id": "SLI-626922",
+    "customer_id": "CUST-00075",
+    "status": "lapsed",
+    "current_step": "lapsed",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-13T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 8.9,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-12T05:16:22.469801",
+    "updated_at": "2026-03-02T02:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "f10258de-c55f-4584-991f-8446fa168ff6"
+  },
+  {
+    "policy_id": "SLI-623123",
+    "customer_id": "CUST-00482",
+    "status": "lapsed",
+    "current_step": "lapsed",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-12T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 7.5,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-11T05:16:22.469801",
+    "updated_at": "2026-03-01T14:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "6bbd9945-ea84-4be7-85c2-472e6dc7cfe8"
+  },
+  {
+    "policy_id": "SLI-936121",
+    "customer_id": "CUST-00279",
+    "status": "lapsed",
+    "current_step": "lapsed",
+    "steps": [
+      {
+        "step": "t45_email",
+        "agent": "email_agent",
+        "channel": "email",
+        "status": "completed",
+        "timestamp": "2026-02-24T05:16:22.469801",
+        "message_preview": "Your policy is up for renewal...",
+        "critique_score": 9.3,
+        "verdict": "APPROVED"
+      }
+    ],
+    "conversation_history": [],
+    "escalation_reason": null,
+    "started_at": "2026-02-23T05:16:22.469801",
+    "updated_at": "2026-03-01T16:16:22.469801",
+    "paid_at": null,
+    "payment_amount": null,
+    "attempt_count": 1,
+    "trace_id": "9a94de26-67d5-4555-9b45-9eff1a8ffdfb"
+  }
+]

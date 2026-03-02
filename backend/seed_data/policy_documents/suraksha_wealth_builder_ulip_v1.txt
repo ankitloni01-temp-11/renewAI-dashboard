@@ -1,0 +1,59 @@
+SURAKSHA WEALTH BUILDER ULIP - POLICY DOCUMENT v1.0
+IRDAI Registration No: 107 | UIN: SLISLA21049V012122
+
+1. PRODUCT OVERVIEW
+Suraksha Wealth Builder ULIP is a unit-linked insurance plan that combines market-linked investment with life insurance protection. Premium is invested in chosen funds after deducting charges.
+
+2. ELIGIBILITY
+- Entry Age: 18 to 65 years
+- Policy Term: 10 to 30 years (minimum 5-year lock-in period)
+- Premium Payment Term: Regular, Limited (5/10 years), Single
+- Minimum Annual Premium: Rs. 50,000
+- Maximum Annual Premium: Rs. 5,00,000 (higher with underwriting)
+
+3. FUND OPTIONS
+Available funds:
+- Equity Growth Fund: High risk, equity-oriented (expected return 12-15% p.a., not guaranteed)
+- Balanced Advantage Fund: Medium risk, 60% equity + 40% debt
+- Debt Secure Fund: Low risk, fixed income instruments
+- Money Market Fund: Very low risk, liquid instruments
+- Index Fund: Tracks Nifty 50 index
+
+4. CHARGES
+- Premium Allocation Charge: 0% (waived)
+- Policy Administration Charge: Rs. 150/month
+- Fund Management Charge: 1.35% p.a. for equity funds; 1.00% for debt funds
+- Mortality Charge: Based on age, sum assured, and fund value
+- Surrender Charge: Applicable only within 5-year lock-in period
+
+5. DEATH BENEFIT
+Higher of:
+- Sum Assured (minimum 10x annual premium), OR
+- Fund Value at date of death
+
+6. MATURITY BENEFIT
+- Fund Value at maturity date (market-linked, not guaranteed)
+- Partially or fully withdraw at maturity or continue the plan
+
+7. PARTIAL WITHDRAWAL
+- After 5-year lock-in period: Up to 20% of Fund Value per year
+- No charges on partial withdrawals after lock-in
+
+8. FUND SWITCH
+- 12 free switches per policy year
+- Minimum switch amount: Rs. 5,000
+
+9. NAV CALCULATION
+- NAV declared daily for all funds
+- NAV changes based on market performance
+- Current NAV performance: Equity Growth Fund +14% YTD (FY2025-26, not guaranteed)
+
+10. TAX BENEFITS
+- Premium eligible for Section 80C deduction (up to Rs. 1.5 lakh)
+- Maturity benefit: Tax-free under Section 10(10D) if sum assured >= 10x annual premium
+- Note: Budget 2023 - ULIPs with premium > Rs. 5 lakh: Gains taxable as capital gains
+
+11. LOCK-IN PERIOD
+- IRDAI mandatory 5-year lock-in period
+- Surrenders within 5 years: Surrender value payable after 5 years
+- Discontinuation Charge: Rs. 6,000 (Year 1), Rs. 5,000 (Year 2), Rs. 4,000 (Year 3), Rs. 2,000 (Year 4), Nil (Year 5+)

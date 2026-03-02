@@ -1,0 +1,202 @@
+[
+  {
+    "employee_id": "EMP-001",
+    "name": "Priya Sharma",
+    "role": "senior_rrm",
+    "specialization": "bereavement",
+    "email": "priya.sharma@suraksha-life.com",
+    "cases_this_week": 8,
+    "avg_resolution_hours": 1.8,
+    "customer_rating": 4.9
+  },
+  {
+    "employee_id": "EMP-002",
+    "name": "Arjun Mehta",
+    "role": "senior_rrm",
+    "specialization": "hni",
+    "email": "arjun.mehta@suraksha-life.com",
+    "cases_this_week": 6,
+    "avg_resolution_hours": 2.2,
+    "customer_rating": 4.8
+  },
+  {
+    "employee_id": "EMP-003",
+    "name": "Kavitha Nair",
+    "role": "senior_rrm",
+    "specialization": "high_value",
+    "email": "kavitha.nair@suraksha-life.com",
+    "cases_this_week": 9,
+    "avg_resolution_hours": 1.9,
+    "customer_rating": 4.7
+  },
+  {
+    "employee_id": "EMP-004",
+    "name": "Suresh Patil",
+    "role": "senior_rrm",
+    "specialization": "high_value",
+    "email": "suresh.patil@suraksha-life.com",
+    "cases_this_week": 7,
+    "avg_resolution_hours": 2.5,
+    "customer_rating": 4.6
+  },
+  {
+    "employee_id": "EMP-005",
+    "name": "Deepa Krishnan",
+    "role": "senior_rrm",
+    "specialization": "bereavement",
+    "email": "deepa.krishnan@suraksha-life.com",
+    "cases_this_week": 5,
+    "avg_resolution_hours": 1.6,
+    "customer_rating": 4.9
+  },
+  {
+    "employee_id": "EMP-006",
+    "name": "Ravi Desai",
+    "role": "senior_rrm",
+    "specialization": "hni",
+    "email": "ravi.desai@suraksha-life.com",
+    "cases_this_week": 4,
+    "avg_resolution_hours": 2.8,
+    "customer_rating": 4.5
+  },
+  {
+    "employee_id": "EMP-007",
+    "name": "Anitha Reddy",
+    "role": "senior_rrm",
+    "specialization": "high_value",
+    "email": "anitha.reddy@suraksha-life.com",
+    "cases_this_week": 11,
+    "avg_resolution_hours": 1.7,
+    "customer_rating": 4.8
+  },
+  {
+    "employee_id": "EMP-008",
+    "name": "Mohan Singh",
+    "role": "senior_rrm",
+    "specialization": "high_value",
+    "email": "mohan.singh@suraksha-life.com",
+    "cases_this_week": 6,
+    "avg_resolution_hours": 2.3,
+    "customer_rating": 4.7
+  },
+  {
+    "employee_id": "EMP-009",
+    "name": "Rahul Deshmukh",
+    "role": "revival_specialist",
+    "specialization": "medical_underwriting",
+    "email": "rahul.deshmukh@suraksha-life.com",
+    "cases_this_week": 12,
+    "avg_resolution_hours": 4.2,
+    "customer_rating": 4.6
+  },
+  {
+    "employee_id": "EMP-010",
+    "name": "Sunita Joshi",
+    "role": "revival_specialist",
+    "specialization": "payment_plans",
+    "email": "sunita.joshi@suraksha-life.com",
+    "cases_this_week": 10,
+    "avg_resolution_hours": 3.8,
+    "customer_rating": 4.7
+  },
+  {
+    "employee_id": "EMP-011",
+    "name": "Anil Kumar",
+    "role": "revival_specialist",
+    "specialization": "waiver_negotiation",
+    "email": "anil.kumar@suraksha-life.com",
+    "cases_this_week": 8,
+    "avg_resolution_hours": 4.5,
+    "customer_rating": 4.5
+  },
+  {
+    "employee_id": "EMP-012",
+    "name": "Latha Venkatesh",
+    "role": "revival_specialist",
+    "specialization": "medical_underwriting",
+    "email": "latha.venkatesh@suraksha-life.com",
+    "cases_this_week": 9,
+    "avg_resolution_hours": 3.9,
+    "customer_rating": 4.8
+  },
+  {
+    "employee_id": "EMP-013",
+    "name": "Ganesh Iyer",
+    "role": "revival_specialist",
+    "specialization": "payment_plans",
+    "email": "ganesh.iyer@suraksha-life.com",
+    "cases_this_week": 7,
+    "avg_resolution_hours": 4.1,
+    "customer_rating": 4.6
+  },
+  {
+    "employee_id": "EMP-014",
+    "name": "Meera Bose",
+    "role": "compliance_handler",
+    "specialization": "irdai_complaints",
+    "email": "meera.bose@suraksha-life.com",
+    "cases_this_week": 2,
+    "avg_resolution_hours": 12.0,
+    "customer_rating": 4.5
+  },
+  {
+    "employee_id": "EMP-015",
+    "name": "Sanjay Gupta",
+    "role": "compliance_handler",
+    "specialization": "mis_selling",
+    "email": "sanjay.gupta@suraksha-life.com",
+    "cases_this_week": 3,
+    "avg_resolution_hours": 10.5,
+    "customer_rating": 4.4
+  },
+  {
+    "employee_id": "EMP-016",
+    "name": "Rohan Jain",
+    "role": "ai_ops_manager",
+    "specialization": "model_tuning",
+    "email": "rohan.jain@suraksha-life.com",
+    "cases_this_week": 0,
+    "avg_resolution_hours": 0,
+    "customer_rating": 0
+  },
+  {
+    "employee_id": "EMP-017",
+    "name": "Sneha Kapoor",
+    "role": "ai_ops_manager",
+    "specialization": "quality_evaluation",
+    "email": "sneha.kapoor@suraksha-life.com",
+    "cases_this_week": 0,
+    "avg_resolution_hours": 0,
+    "customer_rating": 0
+  },
+  {
+    "employee_id": "EMP-018",
+    "name": "Nikhil Verma",
+    "role": "ai_ops_manager",
+    "specialization": "guardrails",
+    "email": "nikhil.verma@suraksha-life.com",
+    "cases_this_week": 0,
+    "avg_resolution_hours": 0,
+    "customer_rating": 0
+  },
+  {
+    "employee_id": "EMP-019",
+    "name": "Vikram Bhatia",
+    "role": "renewal_head",
+    "specialization": "strategy",
+    "email": "vikram.bhatia@suraksha-life.com",
+    "cases_this_week": 0,
+    "avg_resolution_hours": 0,
+    "customer_rating": 0
+  },
+  {
+    "employee_id": "EMP-020",
+    "name": "Prachi Dhawan",
+    "role": "ai_trainer",
+    "specialization": "prompt_engineering",
+    "email": "prachi.dhawan@suraksha-life.com",
+    "cases_this_week": 0,
+    "avg_resolution_hours": 0,
+    "customer_rating": 0
+  }
+]

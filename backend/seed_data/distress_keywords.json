@@ -1,0 +1,249 @@
+{
+  "English": {
+    "bereavement": [
+      "husband passed away",
+      "wife passed away",
+      "death in family",
+      "funeral",
+      "lost my spouse",
+      "my husband died",
+      "my wife died",
+      "bereaved",
+      "mourning",
+      "passed away",
+      "deceased"
+    ],
+    "financial_hardship": [
+      "can't afford",
+      "lost my job",
+      "no money",
+      "financially struggling",
+      "bankrupt",
+      "unemployed",
+      "salary cut",
+      "pay cut",
+      "going through tough times",
+      "money problems"
+    ],
+    "medical": [
+      "hospitalized",
+      "cancer",
+      "surgery",
+      "critical illness",
+      "ICU",
+      "heart attack",
+      "stroke",
+      "seriously ill",
+      "terminal",
+      "diagnosed with"
+    ],
+    "legal": [
+      "consumer court",
+      "ombudsman",
+      "lawyer",
+      "legal notice",
+      "going to sue",
+      "complaint to IRDAI",
+      "cheating",
+      "fraud",
+      "mis-sold"
+    ]
+  },
+  "Hindi": {
+    "bereavement": [
+      "pati guzar gaye",
+      "patni guzar gayi",
+      "maut ho gayi",
+      "mrityu ho gayi",
+      "chale gaye",
+      "nahi rahe",
+      "swarg sidhaar gaye",
+      "beraham maut",
+      "dukh ki ghadi"
+    ],
+    "financial_hardship": [
+      "paise nahi hain",
+      "naukri chali gayi",
+      "kaafi takleef mein hoon",
+      "badi pareshani hai",
+      "ghar chalaana mushkil hai",
+      "karza chadh gaya hai"
+    ],
+    "medical": [
+      "hospital mein hoon",
+      "beemar hoon",
+      "operation hua",
+      "operation hoga",
+      "gambhir bimari",
+      "ICU mein"
+    ],
+    "legal": [
+      "consumer forum",
+      "lokpal",
+      "vakeel",
+      "court mein jaaunga",
+      "IRDAI complaint",
+      "dhoka hua",
+      "dhokha diya"
+    ]
+  },
+  "Marathi": {
+    "bereavement": [
+      "pati gevale",
+      "patni gevali",
+      "mrityu zali",
+      "varle",
+      "gele",
+      "nighun gele"
+    ],
+    "financial_hardship": [
+      "paisa nahi",
+      "naukri geli",
+      "khup kathin ahe",
+      "aarthik samasyaa"
+    ],
+    "medical": [
+      "hospital madhye ahe",
+      "ajar aahe",
+      "operation ahe"
+    ],
+    "legal": [
+      "court madhye jato",
+      "takrar karnar",
+      "IRDAI la takrar"
+    ]
+  },
+  "Tamil": {
+    "bereavement": [
+      "kanavar poitta",
+      "manaivi poitta",
+      "ilanthu vittaar",
+      "maranam"
+    ],
+    "financial_hardship": [
+      "panam illa",
+      "velai poguchchu",
+      "kattinam"
+    ],
+    "medical": [
+      "hospital-il irukkiren",
+      "noi",
+      "surgery"
+    ],
+    "legal": [
+      "court pokiren",
+      "pukaaru seiven",
+      "IRDAI pukaaru"
+    ]
+  },
+  "Telugu": {
+    "bereavement": [
+      "bharthu poyaru",
+      "bharya poyindi",
+      "chanipoyyaru",
+      "maranam"
+    ],
+    "financial_hardship": [
+      "dabbu ledu",
+      "job poyindi",
+      "kastam"
+    ],
+    "medical": [
+      "hospital lo unnanu",
+      "operation",
+      "vyadhi"
+    ],
+    "legal": [
+      "court ki veltanu",
+      "complaint chestanu"
+    ]
+  },
+  "Kannada": {
+    "bereavement": [
+      "ganda hogidare",
+      "hendathi hogidare",
+      "nidhanavagidare"
+    ],
+    "financial_hardship": [
+      "hana illa",
+      "kaleji hogide",
+      "tumba kashtа"
+    ],
+    "medical": [
+      "hospital li iddene",
+      "vyadhi",
+      "operation"
+    ],
+    "legal": [
+      "court ge hoguttene",
+      "complaint maduttene"
+    ]
+  },
+  "Malayalam": {
+    "bereavement": [
+      "bharthav poyi",
+      "bhaarya poyi",
+      "marichupoyi",
+      "marichu"
+    ],
+    "financial_hardship": [
+      "panam illa",
+      "job poyi",
+      "valiyan budhimuttu"
+    ],
+    "medical": [
+      "hospital il aanu",
+      "ariyam",
+      "operation"
+    ],
+    "legal": [
+      "court il pokum",
+      "paruthi parayum"
+    ]
+  },
+  "Bengali": {
+    "bereavement": [
+      "sami chale gache",
+      "stri chale geche",
+      "mara gache",
+      "mrittyu hoye gache"
+    ],
+    "financial_hardship": [
+      "taka nei",
+      "chakri giyeche",
+      "khub kosto"
+    ],
+    "medical": [
+      "hospital-e achi",
+      "opur",
+      "operation"
+    ],
+    "legal": [
+      "court-e jabo",
+      "complaint korbo",
+      "IRDAI complaint"
+    ]
+  },
+  "Gujarati": {
+    "bereavement": [
+      "pati gaya",
+      "patni gayi",
+      "gujri gaya",
+      "mrittyu"
+    ],
+    "financial_hardship": [
+      "paisa nathi",
+      "nokri gayi",
+      "ghanu kashat"
+    ],
+    "medical": [
+      "hospital ma chhu",
+      "bimari",
+      "operation"
+    ],
+    "legal": [
+      "court ma javanu",
+      "complaint karish"
+    ]
+  }
+}

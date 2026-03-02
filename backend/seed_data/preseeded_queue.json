@@ -1,0 +1,197 @@
+[
+  {
+    "case_id": "CASE-00001",
+    "policy_id": "SLI-334521",
+    "customer_id": "CUST-00050",
+    "priority": "urgent",
+    "status": "open",
+    "escalation_reason": "distress_detected",
+    "escalation_detail": "Customer mentioned bereavement: 'My father passed away last week. I cannot think about policy right now.'",
+    "assigned_to": null,
+    "sla_hours": 2,
+    "escalated_at": "2026-03-02T04:16:22.471116",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "content": "Hi! Your Suraksha Term Shield policy is due for renewal on March 20. Tap here to renew.",
+        "timestamp": "2026-03-02T04:11:22.471120",
+        "channel": "whatsapp"
+      },
+      {
+        "role": "customer",
+        "content": "My father passed away last week. I cannot think about policy right now.",
+        "timestamp": "2026-03-02T04:16:22.471122",
+        "channel": "whatsapp"
+      }
+    ],
+    "briefing_note": "**URGENT - BEREAVEMENT CASE**\n\nCustomer Ramesh Gupta (CUST-00050) is going through bereavement. His father passed away last week.\n\n**Recommended Approach:**\n- Lead with condolence, NOT renewal\n- Offer 3-month premium holiday immediately\n- Check if father was nominee - may need claim assistance\n- Do NOT mention payment or due dates in first call\n\n**Policy:** Suraksha Term Shield | Premium: ₹18,000 | Tenure: 7 years | Zero lapses",
+    "recommended_approach": "Call immediately. Open with condolences. Offer premium holiday. Ask about nominee status.",
+    "detected_sentiment": "distress_bereavement"
+  },
+  {
+    "case_id": "CASE-00002",
+    "policy_id": "SLI-667891",
+    "customer_id": "CUST-00120",
+    "priority": "standard",
+    "status": "open",
+    "escalation_reason": "critique_failure",
+    "escalation_detail": "Planner Critique rejected after 3 retries. Customer segment mismatch detected in all plans.",
+    "assigned_to": null,
+    "sla_hours": 24,
+    "escalated_at": "2026-03-02T02:16:22.471125",
+    "conversation_history": [],
+    "briefing_note": "**CRITIQUE FAILURE - MANUAL PLAN REQUIRED**\n\nThe AI planning agent failed to generate an approved renewal plan for this customer after 3 attempts. The critique agent flagged segment mismatch.\n\n**Reason:** Customer profile shows HNI segment (ULIP ₹2,50,000 premium) but CRM data shows budget_conscious tag - likely data error.\n\n**Action Required:** Manually contact customer with HNI-appropriate approach. Suggest wealth management review alongside renewal.",
+    "recommended_approach": "Use HNI approach. Focus on fund performance and portfolio review. Do not use standard budget-conscious messaging.",
+    "detected_sentiment": "neutral"
+  },
+  {
+    "case_id": "CASE-00003",
+    "policy_id": "SLI-221456",
+    "customer_id": "CUST-00085",
+    "priority": "urgent",
+    "status": "assigned",
+    "escalation_reason": "distress_detected",
+    "escalation_detail": "Customer mentioned medical emergency: 'I am in the hospital. I had a heart attack.'",
+    "assigned_to": "EMP-001",
+    "assigned_at": "2026-03-02T04:31:22.471130",
+    "sla_hours": 2,
+    "escalated_at": "2026-03-02T03:46:22.471131",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "content": "Namaste! Aapki Suraksha policy ka renewal due hai. Payment ke liye yahan tap karein.",
+        "timestamp": "2026-03-02T03:41:22.471133",
+        "channel": "whatsapp"
+      },
+      {
+        "role": "customer",
+        "content": "Main hospital mein hoon. Mujhe heart attack aaya hai. Baad mein baat karna.",
+        "timestamp": "2026-03-02T03:46:22.471135",
+        "channel": "whatsapp"
+      }
+    ],
+    "briefing_note": "**URGENT - MEDICAL EMERGENCY**\n\nCustomer is hospitalized with a heart attack. DO NOT discuss renewal.\n\n**Immediate Actions:**\n1. Express concern for health\n2. Inform about 30-day grace period - no action needed right now\n3. Check if hospitalisation is covered under any rider\n4. Note for follow-up once customer recovers\n\n**Policy:** Suraksha Endowment Plus | ₹22,000 premium | 6 years tenure",
+    "recommended_approach": "Health first. Renewal can wait 30 days. Check rider coverage for hospitalization.",
+    "detected_sentiment": "distress_medical"
+  },
+  {
+    "case_id": "CASE-00004",
+    "policy_id": "SLI-559012",
+    "customer_id": "CUST-00200",
+    "priority": "standard",
+    "status": "open",
+    "escalation_reason": "human_requested",
+    "escalation_detail": "Customer explicitly requested human agent after 3 WhatsApp exchanges.",
+    "assigned_to": null,
+    "sla_hours": 24,
+    "escalated_at": "2026-03-02T00:16:22.471137",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "content": "Hi Anita! Your Suraksha Child Future Plan is due for renewal on March 18.",
+        "timestamp": "2026-03-02T00:01:22.471140",
+        "channel": "whatsapp"
+      },
+      {
+        "role": "customer",
+        "content": "I have questions about the maturity benefits. Can you explain?",
+        "timestamp": "2026-03-02T00:06:22.471141",
+        "channel": "whatsapp"
+      },
+      {
+        "role": "ai",
+        "content": "Your Child Future Plan matures in 2035 with a projected value of ₹4,80,000...",
+        "timestamp": "2026-03-02T00:08:22.471143",
+        "channel": "whatsapp"
+      },
+      {
+        "role": "customer",
+        "content": "I want to talk to a real person please. I have more complex questions.",
+        "timestamp": "2026-03-02T00:16:22.471144",
+        "channel": "whatsapp"
+      }
+    ],
+    "briefing_note": "**HUMAN REQUESTED**\n\nCustomer Anita Sharma has complex questions about maturity benefits of her Child Future Plan. She is not satisfied with AI explanations.\n\n**Background:** Policy has 12 years remaining. Premium ₹15,000/year. Customer is likely planning education funding.\n\n**Recommended Approach:** Walk through the maturity benefit schedule year by year. Discuss Suraksha's Education Benefit rider option. Customer seems financially literate.",
+    "recommended_approach": "Detailed product walkthrough. Focus on education planning angle. Suggest Education Benefit rider.",
+    "detected_sentiment": "neutral_curious"
+  },
+  {
+    "case_id": "CASE-00005",
+    "policy_id": "SLI-778234",
+    "customer_id": "CUST-00310",
+    "priority": "compliance",
+    "status": "open",
+    "escalation_reason": "compliance_flag",
+    "escalation_detail": "AI response flagged for potential mis-selling: response contained phrase suggesting 'guaranteed 14% returns' for ULIP product.",
+    "assigned_to": "EMP-014",
+    "assigned_at": "2026-03-02T03:16:22.471147",
+    "sla_hours": 4,
+    "escalated_at": "2026-03-02T02:46:22.471148",
+    "conversation_history": [],
+    "briefing_note": "**COMPLIANCE ALERT - POTENTIAL MIS-SELLING**\n\nAI draft response for ULIP renewal was flagged by the Safety Gate for containing language that could be interpreted as guaranteeing investment returns.\n\n**Flagged phrase:** 'your fund has grown 14% and we expect similar returns'\n\n**Regulatory concern:** IRDAI prohibits guaranteeing ULIP returns. This was caught BEFORE delivery (no customer harm).\n\n**Action:** Review the draft, amend to correct language, and document this catch for the monthly IRDAI report.",
+    "recommended_approach": "Draft correction: 'Your fund has grown 14% in the past year. Past performance is not indicative of future returns.'",
+    "detected_sentiment": "neutral"
+  },
+  {
+    "case_id": "CASE-00006",
+    "policy_id": "SLI-901234",
+    "customer_id": "CUST-00400",
+    "priority": "standard",
+    "status": "open",
+    "escalation_reason": "critique_failure",
+    "escalation_detail": "Voice Agent Critique failed 3 times. Script for regional language (Kannada) customer rated below 7.0 on language quality.",
+    "assigned_to": null,
+    "sla_hours": 24,
+    "escalated_at": "2026-03-01T21:16:22.471150",
+    "conversation_history": [],
+    "briefing_note": "**LANGUAGE QUALITY FAILURE**\n\nThe Voice Agent could not generate a Kannada-language script that passed quality review after 3 attempts.\n\n**Reason:** Customer's profile shows preference for Havyaka Kannada dialect, but the AI was generating standard Kannada.\n\n**Action:** Call this customer in standard Kannada or switch to English (customer also speaks English). Note the dialect gap in the system for the AI trainer.",
+    "recommended_approach": "Call in English or standard Kannada. Customer also speaks English well. Note dialect preference for model improvement.",
+    "detected_sentiment": "neutral"
+  },
+  {
+    "case_id": "CASE-00007",
+    "policy_id": "SLI-112345",
+    "customer_id": "CUST-00450",
+    "priority": "urgent",
+    "status": "open",
+    "escalation_reason": "distress_detected",
+    "escalation_detail": "Customer mentioned financial hardship: 'Meri naukri chali gayi hai. Ghar chalaana mushkil ho gaya hai.'",
+    "assigned_to": null,
+    "sla_hours": 2,
+    "escalated_at": "2026-03-02T04:46:22.471152",
+    "conversation_history": [
+      {
+        "role": "ai",
+        "content": "Namaste Ramesh-ji! Aapki Suraksha Term Shield policy ka renewal 22 March ko due hai.",
+        "timestamp": "2026-03-02T04:41:22.471153",
+        "channel": "whatsapp"
+      },
+      {
+        "role": "customer",
+        "content": "Meri naukri chali gayi hai. Ghar chalaana mushkil ho gaya hai. Policy band karna padega.",
+        "timestamp": "2026-03-02T04:46:22.471155",
+        "channel": "whatsapp"
+      }
+    ],
+    "briefing_note": "**URGENT - JOB LOSS / FINANCIAL HARDSHIP**\n\nCustomer has lost their job and is facing financial difficulty. At risk of lapsing.\n\n**Immediate Options to Offer:**\n1. Premium Holiday (3-6 months) - policy stays active\n2. Reduced paid-up value option\n3. Auto-pay with delayed start\n4. Grace period (30 days from due date)\n\n**IMPORTANT:** Do not discuss payment at start. Acknowledge the difficulty first.",
+    "recommended_approach": "Empathy first. Lead with Premium Holiday option. Do not pressure for payment.",
+    "detected_sentiment": "distress_financial"
+  },
+  {
+    "case_id": "CASE-00008",
+    "policy_id": "SLI-567890",
+    "customer_id": "CUST-00480",
+    "priority": "standard",
+    "status": "on_hold",
+    "escalation_reason": "human_requested",
+    "escalation_detail": "Customer requested agent to discuss surrender value calculation.",
+    "assigned_to": "EMP-003",
+    "assigned_at": "2026-03-02T01:16:22.471156",
+    "sla_hours": 24,
+    "escalated_at": "2026-03-01T23:16:22.471158",
+    "conversation_history": [],
+    "briefing_note": "**SURRENDER INQUIRY**\n\nCustomer wants to discuss surrender value. 10-year endowment policy. Premium ₹30,000/year. Customer has been with Suraksha 10 years.\n\n**Context:** Surrender value now would be approx ₹2,40,000 vs projected maturity of ₹5,20,000 in 5 years.\n\n**Goal:** Convince customer to hold for 5 more years. Show the gap clearly. Offer premium holiday if cash needed.",
+    "recommended_approach": "Show maturity vs surrender gap. Offer premium holiday for 6 months as alternative. Do not let a 10-year customer surrender.",
+    "detected_sentiment": "considering_surrender"
+  }
+]

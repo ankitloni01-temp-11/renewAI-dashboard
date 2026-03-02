@@ -1,0 +1,247 @@
+[
+  {
+    "id": "OBJ-001",
+    "objection": "I can't afford the premium right now",
+    "category": "financial_hardship",
+    "response": "I completely understand. Suraksha offers a 30-day grace period at no extra charge. You can also opt for our ECS AutoPay which spreads the payment automatically. Shall I set that up for you?",
+    "effectiveness_score": 8.5
+  },
+  {
+    "id": "OBJ-002",
+    "objection": "Paise nahi hain abhi",
+    "category": "financial_hardship",
+    "response": "Main samajh sakta hoon. Suraksha mein 30 din ki grace period hai bilkul free. Aap ECS AutoPay bhi setup kar sakte hain. Kya main aapke liye yeh arrange kar sakta hoon?",
+    "effectiveness_score": 8.7
+  },
+  {
+    "id": "OBJ-003",
+    "objection": "Money is very tight this month",
+    "category": "financial_hardship",
+    "response": "I understand completely. We have a premium holiday option for up to 3 months for customers in financial difficulty. Your cover continues during this time. Would you like me to explore this for you?",
+    "effectiveness_score": 9.0
+  },
+  {
+    "id": "OBJ-004",
+    "objection": "I lost my job recently",
+    "category": "financial_hardship",
+    "response": "I'm sorry to hear that. During difficult times, the last thing you want is to lose your life cover. Suraksha has a Premium Holiday scheme for up to 6 months where your policy stays active. Let me connect you with our specialist who can help.",
+    "effectiveness_score": 9.2
+  },
+  {
+    "id": "OBJ-005",
+    "objection": "Bahut mehenga hai",
+    "category": "financial_hardship",
+    "response": "Main samajhta hoon. Kya aap jaante hain ki aap sirf ₹2,000 per maah mein apni ₹1 Crore ki protection jari rakh sakte hain? Aur agar kabhi zaroorat pade, hum 30 din ki grace period dete hain.",
+    "effectiveness_score": 8.3
+  },
+  {
+    "id": "OBJ-006",
+    "objection": "Can't pay full amount at once",
+    "category": "payment_flexibility",
+    "response": "No problem at all! We accept UPI, Net Banking, and Credit/Debit cards. For premiums above ₹50,000, we also offer quarterly payment options. Would any of these work for you?",
+    "effectiveness_score": 8.0
+  },
+  {
+    "id": "OBJ-007",
+    "objection": "Can I pay in EMIs?",
+    "category": "payment_flexibility",
+    "response": "Absolutely! For annual premiums, we can split into 2 or 4 instalments. For ULIPs above ₹1 Lakh, we also offer monthly SIP-style payments. Which option would you prefer?",
+    "effectiveness_score": 8.8
+  },
+  {
+    "id": "OBJ-008",
+    "objection": "Can I pay monthly instead of yearly?",
+    "category": "payment_flexibility",
+    "response": "Yes! We offer monthly, quarterly, and half-yearly payment modes. There is a small frequency loading of 2-3%, but many customers find it much more manageable. Shall I switch your payment mode?",
+    "effectiveness_score": 8.5
+  },
+  {
+    "id": "OBJ-009",
+    "objection": "Do you accept UPI?",
+    "category": "payment_flexibility",
+    "response": "Yes, we accept all UPI apps - GPay, PhonePe, Paytm, BHIM and more. Here's your direct payment link: [PAYMENT_LINK]. It also has a UPI QR code you can scan.",
+    "effectiveness_score": 9.0
+  },
+  {
+    "id": "OBJ-010",
+    "objection": "I want to pay through my agent",
+    "category": "payment_flexibility",
+    "response": "Of course! Your agent can accept the payment and we'll process it. However, the fastest way is our digital payment link - it reflects in your policy within 2 hours versus 2-3 days through the branch. The choice is yours!",
+    "effectiveness_score": 7.8
+  },
+  {
+    "id": "OBJ-011",
+    "objection": "Is this policy worth it?",
+    "category": "value_doubt",
+    "response": "Let me share your policy's value: Your ₹[PREMIUM] premium provides ₹[SUM_ASSURED] life cover for your family. That's [MULTIPLIER]x protection. Plus you've already paid ₹[TOTAL_PAID] building significant policy value. Surrendering now means losing all of that.",
+    "effectiveness_score": 8.9
+  },
+  {
+    "id": "OBJ-012",
+    "objection": "Returns are very low",
+    "category": "value_doubt",
+    "response": "I understand your concern. Pure term insurance is protection, not investment - that's intentional. Your ₹[PREMIUM]/year buys ₹[SUM_ASSURED] protection - that's a [MULTIPLIER]x cover. For investment returns, our ULIP plans combine both.",
+    "effectiveness_score": 8.2
+  },
+  {
+    "id": "OBJ-013",
+    "objection": "I'm not getting any benefit",
+    "category": "value_doubt",
+    "response": "The benefit of term insurance is the certainty that your family receives ₹[SUM_ASSURED] if something happens to you. It's like car insurance - you don't want to use it, but you'll be grateful it exists when needed.",
+    "effectiveness_score": 7.9
+  },
+  {
+    "id": "OBJ-014",
+    "objection": "I want to surrender my policy",
+    "category": "surrender_cancel",
+    "response": "I understand. Before we process the surrender, let me share the surrender value: ₹[SURRENDER_VALUE]. If you surrender now you'll receive this amount, but you'll lose ₹[SUM_ASSURED] of life cover. Would you be open to a premium holiday instead, keeping your cover active?",
+    "effectiveness_score": 9.1
+  },
+  {
+    "id": "OBJ-015",
+    "objection": "Cancel my policy",
+    "category": "surrender_cancel",
+    "response": "I can process that for you. However, after [TENURE] years you've built up significant policy value. May I ask what's driving the decision? Often we can find a solution - premium holiday, reduced cover, or a payment plan that keeps your family protected.",
+    "effectiveness_score": 8.7
+  },
+  {
+    "id": "OBJ-016",
+    "objection": "I don't need insurance anymore",
+    "category": "surrender_cancel",
+    "response": "I respect your decision. May I just confirm - you have dependents (family members who rely on your income)? If yes, the risk of not having cover can be significant. Would you like to speak with our specialist who can review if any alternatives work for you?",
+    "effectiveness_score": 8.0
+  },
+  {
+    "id": "OBJ-017",
+    "objection": "I got a better offer from HDFC Life",
+    "category": "competitor",
+    "response": "That's great that you're comparing! Could I ask - is the premium similar or lower? Sometimes lower premiums mean lower cover or stricter claim conditions. Your current Suraksha policy has [CLAIM_SETTLEMENT_RATE]% claim settlement rate. Are you comfortable sharing the competing offer details?",
+    "effectiveness_score": 8.3
+  },
+  {
+    "id": "OBJ-018",
+    "objection": "LIC gives more bonus",
+    "category": "competitor",
+    "response": "LIC is a great insurer. Their traditional plans do offer bonuses, but they're typically lower sum assured. Your Suraksha plan gives ₹[SUM_ASSURED] guaranteed cover. For a fair comparison, what sum assured is LIC offering at that premium?",
+    "effectiveness_score": 7.8
+  },
+  {
+    "id": "OBJ-019",
+    "objection": "How do I pay?",
+    "category": "process",
+    "response": "It's very simple! Click this payment link: [PAYMENT_LINK]. You can pay via UPI, Net Banking, Credit/Debit card, or scan the QR code. Payment reflects instantly and you'll get a WhatsApp confirmation.",
+    "effectiveness_score": 9.2
+  },
+  {
+    "id": "OBJ-020",
+    "objection": "Where is my payment link?",
+    "category": "process",
+    "response": "Here it is! [PAYMENT_LINK] - This link is valid for 30 days and works for UPI, Net Banking, and all cards. It's secured with 256-bit encryption. Let me know if you face any issues.",
+    "effectiveness_score": 9.5
+  },
+  {
+    "id": "OBJ-021",
+    "objection": "I already paid through my agent",
+    "category": "process",
+    "response": "Thank you for the payment! It may take 24-48 hours to reflect if paid through the branch. To confirm, can you share the receipt or transaction reference? I'll update your policy immediately.",
+    "effectiveness_score": 8.8
+  },
+  {
+    "id": "OBJ-022",
+    "objection": "Payment link not working",
+    "category": "technical",
+    "response": "I'm sorry for the inconvenience! Let me generate a fresh payment link for you right now: [NEW_PAYMENT_LINK]. If this doesn't work either, please try: 1) Clear browser cache, 2) Try a different browser, 3) Call our helpline 1800-XXX-XXXX.",
+    "effectiveness_score": 8.5
+  },
+  {
+    "id": "OBJ-023",
+    "objection": "I didn't get the email",
+    "category": "technical",
+    "response": "I apologize for that! Let me resend it to [EMAIL] right now. Please also check your Spam folder. Alternatively, here's your direct payment link on WhatsApp: [PAYMENT_LINK]",
+    "effectiveness_score": 9.0
+  },
+  {
+    "id": "OBJ-024",
+    "objection": "Is this a scam?",
+    "category": "trust",
+    "response": "Completely understandable to verify! I am the AI-powered renewal assistant of Suraksha Life Insurance, regulated by IRDAI (Registration No: [IRDAI_REG]). You can verify by calling our official helpline 1800-XXX-XXXX or visiting suraksha-life.com. Your policy no. [POLICY_ID] is valid and active.",
+    "effectiveness_score": 9.3
+  },
+  {
+    "id": "OBJ-025",
+    "objection": "Are you a robot?",
+    "category": "trust",
+    "response": "Yes, I am Suraksha's AI-powered renewal assistant! I handle routine renewal queries 24/7. If you'd prefer to speak with a human specialist, just say 'talk to a person' and I'll connect you immediately. Many customers find it faster and convenient to renew directly with me though!",
+    "effectiveness_score": 8.9
+  },
+  {
+    "id": "OBJ-026",
+    "objection": "I want to talk to a real person",
+    "category": "trust",
+    "response": "Absolutely! I'll connect you with a Renewal Relationship Manager right away. They have your full policy history and will call you within 2 hours at [PREFERRED_TIME]. Is [PHONE] the best number to reach you?",
+    "effectiveness_score": 9.5
+  },
+  {
+    "id": "OBJ-027",
+    "objection": "What is my sum assured?",
+    "category": "product_query",
+    "response": "Your sum assured is ₹[SUM_ASSURED]. This is the guaranteed amount your family will receive in case of any eventuality. Your policy [POLICY_ID] ([PRODUCT_NAME]) has been protecting your family since [START_DATE].",
+    "effectiveness_score": 9.0
+  },
+  {
+    "id": "OBJ-028",
+    "objection": "When does my policy mature?",
+    "category": "product_query",
+    "response": "Your [PRODUCT_NAME] policy (No. [POLICY_ID]) matures on [MATURITY_DATE]. At maturity, you'll receive ₹[MATURITY_VALUE] (projected). To ensure you receive the full maturity benefit, your premium due on [DUE_DATE] must be paid.",
+    "effectiveness_score": 9.1
+  },
+  {
+    "id": "OBJ-029",
+    "objection": "What's my fund value?",
+    "category": "product_query",
+    "response": "Your Suraksha Wealth Builder ULIP current fund value is ₹[FUND_VALUE] as of today. Your NAV has grown [NAV_CHANGE]% this year. Continuing the policy ensures your fund keeps growing tax-efficiently under Section 10(10D).",
+    "effectiveness_score": 8.8
+  },
+  {
+    "id": "OBJ-030",
+    "objection": "How do I file a claim?",
+    "category": "claims",
+    "response": "For life insurance claims: 1) Call 1800-XXX-XXXX (24/7) 2) Email claims@suraksha-life.com 3) Visit any Suraksha branch with: Death certificate, Policy document, ID proof of nominee. Claims are settled within 30 days of complete documentation.",
+    "effectiveness_score": 9.0
+  },
+  {
+    "id": "OBJ-031",
+    "objection": "What is the death benefit?",
+    "category": "claims",
+    "response": "The death benefit for your [PRODUCT_NAME] policy is ₹[SUM_ASSURED]. This is paid to your nominee [NOMINEE_NAME] as a lump sum, tax-free under Section 10(10D). Have you updated your nominee details recently?",
+    "effectiveness_score": 9.2
+  },
+  {
+    "id": "OBJ-032",
+    "objection": "What happens if I don't pay?",
+    "category": "surrender_cancel",
+    "response": "If the premium is not paid by the due date, there's a 30-day grace period where your cover continues. After that, the policy lapses. Revival is possible within 2 years with a small fee. To avoid this, shall I set up AutoPay?",
+    "effectiveness_score": 8.8
+  },
+  {
+    "id": "OBJ-033",
+    "objection": "Mujhe nahi chahiye yeh policy",
+    "category": "surrender_cancel",
+    "response": "Main samajhta hoon. Lekin [TENURE] saalon ki hard-earned savings aur ₹[SUM_ASSURED] ki protection kho jaayegi. Kya aap mujhe bata sakte hain kyun aap band karna chahte hain? Shayad hum koi solution nikal sakein.",
+    "effectiveness_score": 8.5
+  },
+  {
+    "id": "OBJ-034",
+    "objection": "Iska koi fayda nahi",
+    "category": "value_doubt",
+    "response": "Main samajhta hoon aapki baat. Yeh policy aapke parivaar ko ₹[SUM_ASSURED] ki suraksha deti hai. Jaise ghar ka taala - aap chahte hain ki kabhi kaam na aaye, lekin hota hai toh bahut bada sahara milta hai.",
+    "effectiveness_score": 8.0
+  },
+  {
+    "id": "OBJ-035",
+    "objection": "Is this IRDAI approved?",
+    "category": "trust",
+    "response": "Yes, absolutely. Suraksha Life Insurance is registered with IRDAI (Insurance Regulatory and Development Authority of India) under registration number [IRDAI_REG]. All our products are IRDAI approved. You can verify at irdai.gov.in.",
+    "effectiveness_score": 9.4
+  }
+]

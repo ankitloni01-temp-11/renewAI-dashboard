@@ -1,0 +1,142 @@
+[
+  {
+    "rule_id": "CR-001",
+    "rule": "AI must self-identify as AI in every communication",
+    "category": "disclosure",
+    "severity": "high",
+    "check_type": "regex"
+  },
+  {
+    "rule_id": "CR-002",
+    "rule": "Opt-out mechanism must be present in every communication",
+    "category": "disclosure",
+    "severity": "high",
+    "check_type": "keyword"
+  },
+  {
+    "rule_id": "CR-003",
+    "rule": "No guaranteed return promises for ULIPs",
+    "category": "product_accuracy",
+    "severity": "critical",
+    "check_type": "regex"
+  },
+  {
+    "rule_id": "CR-004",
+    "rule": "No pressure language ('must pay today or lose everything')",
+    "category": "ethics",
+    "severity": "high",
+    "check_type": "keyword"
+  },
+  {
+    "rule_id": "CR-005",
+    "rule": "DND check required before voice calls",
+    "category": "regulatory",
+    "severity": "high",
+    "check_type": "api_check"
+  },
+  {
+    "rule_id": "CR-006",
+    "rule": "PII must not appear in AI inference prompts",
+    "category": "privacy",
+    "severity": "critical",
+    "check_type": "pii_scan"
+  },
+  {
+    "rule_id": "CR-007",
+    "rule": "All communications in customer preferred language",
+    "category": "language",
+    "severity": "medium",
+    "check_type": "language_check"
+  },
+  {
+    "rule_id": "CR-008",
+    "rule": "Grace period must be accurately stated as 30 days",
+    "category": "product_accuracy",
+    "severity": "high",
+    "check_type": "factual"
+  },
+  {
+    "rule_id": "CR-009",
+    "rule": "Premium holiday eligibility criteria must be stated correctly",
+    "category": "product_accuracy",
+    "severity": "medium",
+    "check_type": "factual"
+  },
+  {
+    "rule_id": "CR-010",
+    "rule": "Revival terms must be accurate (2 years, with late fees)",
+    "category": "product_accuracy",
+    "severity": "high",
+    "check_type": "factual"
+  },
+  {
+    "rule_id": "CR-011",
+    "rule": "Cannot promise specific investment returns",
+    "category": "product_accuracy",
+    "severity": "critical",
+    "check_type": "regex"
+  },
+  {
+    "rule_id": "CR-012",
+    "rule": "Must mention IRDAI grievance redressal in formal communications",
+    "category": "disclosure",
+    "severity": "medium",
+    "check_type": "keyword"
+  },
+  {
+    "rule_id": "CR-013",
+    "rule": "Policy number must be mentioned in all renewal communications",
+    "category": "disclosure",
+    "severity": "high",
+    "check_type": "keyword"
+  },
+  {
+    "rule_id": "CR-014",
+    "rule": "Premium amount must exactly match policy records",
+    "category": "product_accuracy",
+    "severity": "critical",
+    "check_type": "factual"
+  },
+  {
+    "rule_id": "CR-015",
+    "rule": "Sum assured must exactly match policy records",
+    "category": "product_accuracy",
+    "severity": "critical",
+    "check_type": "factual"
+  },
+  {
+    "rule_id": "CR-016",
+    "rule": "No calls between 9 PM and 9 AM",
+    "category": "regulatory",
+    "severity": "high",
+    "check_type": "time_check"
+  },
+  {
+    "rule_id": "CR-017",
+    "rule": "Maximum 3 contact attempts per channel per week",
+    "category": "regulatory",
+    "severity": "medium",
+    "check_type": "frequency_check"
+  },
+  {
+    "rule_id": "CR-018",
+    "rule": "Nominee information must not be shared without verification",
+    "category": "privacy",
+    "severity": "high",
+    "check_type": "access_control"
+  },
+  {
+    "rule_id": "CR-019",
+    "rule": "Bank account details must never appear in any communication",
+    "category": "privacy",
+    "severity": "critical",
+    "check_type": "pii_scan"
+  },
+  {
+    "rule_id": "CR-020",
+    "rule": "Aadhaar number must be masked if detected",
+    "category": "privacy",
+    "severity": "critical",
+    "check_type": "pii_scan"
+  }
+]
