@@ -29,12 +29,25 @@ npm run dev
 
 Open http://localhost:3000
 
-### Docker Compose
+### Docker Quick Start (Recommended)
+The easiest way to run the full stack (Frontend + Backend + MCP Servers) is using Docker Compose.
+
 ```bash
+# 1. Clone the repository
+git clone https://github.com/ankitloni01-temp-11/renewAI-dashboard.git
+cd renewAI-dashboard
+
+# 2. Configure environment
 cp .env.example .env
-# Add GOOGLE_API_KEY to .env
-docker-compose up --build
+# Open .env and add your GOOGLE_API_KEY (from aistudio.google.com)
+
+# 3. Launch the stack
+docker compose up --build -d
 ```
+
+Once the build is complete:
+- **Dashboard**: [http://localhost:3000](http://localhost:3000)
+- **API (Backend)**: [http://localhost:8005](http://localhost:8005)
 
 ### Demo Walkthrough
 1. Login as **Renewal Head** → View Executive KPI Dashboard
