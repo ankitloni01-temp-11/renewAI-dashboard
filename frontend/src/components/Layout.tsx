@@ -4,6 +4,7 @@ import Sidebar from './Sidebar'
 import DemoControlPanel from './DemoControlPanel'
 import WhatsAppSimulator from './WhatsAppSimulator'
 import VoiceSimulator from './VoiceSimulator'
+import GlobalIntelligencePipeline from './GlobalIntelligencePipeline'
 import { useUIStore } from '../stores/uiStore'
 
 export default function Layout() {
@@ -20,6 +21,7 @@ export default function Layout() {
       </div>
       {whatsappOpen && <WhatsAppSimulator />}
       {voiceOpen && <VoiceSimulator />}
+      <GlobalIntelligencePipeline />
     </div>
   )
 }

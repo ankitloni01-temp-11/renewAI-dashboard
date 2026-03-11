@@ -1,32 +1,9 @@
-"""Email Execution Agent using MCP."""
 import json, time, uuid, asyncio
 from typing import Dict, Any
-import google.generativeai as genai
-from config import GOOGLE_API_KEY, GEMINI_MODEL
+from agents.gemini_caller import call_gemini
+import prompts.all_prompts as ap
 from mcp_client.client import mcp
-
-genai.configure(api_key=GOOGLE_API_KEY)
-
-EMAIL_PROMPT = """You are the Email Agent of RenewAI at Suraksha Life Insurance.
-Generate a personalized renewal email for the customer.
-
-RULES:
-1. Always start with "This message is from Suraksha's AI-powered renewal assistant."
-2. Always include opt-out: "To stop receiving reminders, reply STOP."
-3. Use ONLY the financial figures provided - never make up numbers
-4. Tone must match customer segment
-5. Include the policy number prominently
-6. Language: as specified
-
-Output valid JSON only:
-{
-  "subject_line": "...",
-  "body_text": "Full email body text",
-  "body_html": "HTML version",
-  "language": "English",
-  "personalization_elements_used": ["name", "policy_number", "premium"],
-  "policy_figures_cited": {"premium": 24000, "sum_assured": 1000000}
-}"""
+from config import GEMINI_MODEL
 
 async def run_email_agent(policy_id: str, plan: Dict, orchestrator_result: Dict) -> Dict[str, Any]:
     start = time.time()
@@ -38,31 +15,25 @@ async def run_email_agent(policy_id: str, plan: Dict, orchestrator_result: Dict)
     lang = orchestrator_result.get("language", "English")
     segment = customer.get("segment", "loyal_long_term")
     
-    model = genai.GenerativeModel(GEMINI_MODEL)
-    user_prompt = f"""
-CUSTOMER: {customer.get('full_name', customer.get('name'))} | Segment: {segment}
-POLICY: {policy.get('policy_id')} - {policy.get('product_name')}
-PREMIUM: Rs.{policy.get('premium_amount',0):,} | SUM ASSURED: Rs.{policy.get('sum_assured',0):,}
-DUE DATE: {policy.get('due_date')}
-LANGUAGE: {lang}
-PLAN OPENING: {plan.get('opening_line', '')}
-KEY BENEFITS: {json.dumps(plan.get('key_benefit_points', []))}
-CTA: {plan.get('call_to_action', 'Renew Now')}
-PAYMENT LINK: https://pay.suraksha.in/renew/{policy_id}
-{f"FUND VALUE: Rs.{policy.get('fund_value',0):,} | NAV CHANGE: +{policy.get('nav_change_pct',12)}%" if policy.get('product_type') == 'ulip' else ""}
-{f"MATURITY VALUE: Rs.{policy.get('projected_maturity_value',0):,} on {policy.get('maturity_date','')}" if policy.get('product_type') in ['endowment','child'] else ""}
-
-Generate a personalized renewal email in {lang}. If not English, provide the message in that language.
-The email should feel personal, warm, and motivating - not robotic.
-"""
-    try:
-        response = await asyncio.to_thread(
-            model.generate_content,
-            [EMAIL_PROMPT, user_prompt],
-            generation_config=genai.GenerationConfig(response_mime_type="application/json", max_output_tokens=1000)
-        )
-        result = json.loads(response.text)
-    except Exception as e:
+    user_prompt = ap.EMAIL_AGENT_USER_TEMPLATE.format(
+        execution_plan=json.dumps(plan, indent=2),
+        customer_name=customer.get('full_name', customer.get('name', 'valued customer')),
+        language=lang,
+        segment=segment,
+        tenure=customer.get('tenure_years', 0),
+        policy_id=policy_id,
+        product_name=policy.get('product_name', 'policy'),
+        premium=policy.get('premium_amount', 0),
+        sum_assured=policy.get('sum_assured', 0),
+        due_date=policy.get('due_date', ''),
+        extra_policy_fields=f"Due Date: {policy.get('due_date')}", # Simple inclusion
+        rag_context="N/A"
+    )
+    
+    result_call = await call_gemini(ap.EMAIL_AGENT_SYSTEM_PROMPT, user_prompt)
+    result = result_call.get("data", {}) if result_call["success"] else None
+    
+    if not result:
         result = {
             "subject_line": f"Important: Your {policy.get('product_name')} Policy Renewal Due {policy.get('due_date')}",
             "body_text": f"""This message is from Suraksha's AI-powered renewal assistant.\n\nDear {customer.get('first_name', 'Valued Customer')},\n\nYour {policy.get('product_name')} (Policy No: {policy_id}) is due for renewal on {policy.get('due_date')}.\n\nPremium Amount: Rs.{policy.get('premium_amount',0):,}\nLife Cover: Rs.{policy.get('sum_assured',0):,}\n\nRenew now: https://pay.suraksha.in/renew/{policy_id}\n\nThank you for trusting Suraksha for your family's protection.\n\nTo stop receiving reminders, reply STOP.""",
@@ -83,8 +54,8 @@ The email should feel personal, warm, and motivating - not robotic.
             "action": "generate_email",
             "input_summary": f"Generating {lang} email via MCP",
             "output_summary": f"Subject: {result.get('subject_line','')[:50]}",
-            "model_used": GEMINI_MODEL, "latency_ms": latency_ms,
-            "token_count_in": 450, "token_count_out": 550,
+            "model_used": result_call.get("model", GEMINI_MODEL), "latency_ms": latency_ms,
+            "token_count_in": result_call.get("token_count_in", 450), "token_count_out": result_call.get("token_count_out", 550),
             "verdict": "GENERATED", "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "full_output": result
         }

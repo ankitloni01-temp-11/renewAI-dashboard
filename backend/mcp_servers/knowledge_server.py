@@ -2,32 +2,54 @@ import sys
 import json
 import os
 from typing import Dict, Any, List
-from rag.vector_store import search_objections as local_search_objections, search_policy_docs
+from rag.vector_store import (
+    search_objections as local_search_objections, 
+    search_policy_docs as local_search_policy_docs,
+    ingest_objections as local_ingest_objections,
+    ingest_policy_docs as local_ingest_policy_docs
+)
 
 # For demo purposes, we load these from seed files instead of store
 SEED_DIR = "/home/labuser/VSCODE_training/renewai-demo/backend/seed_data"
 
-def search_objections(arguments: Dict) -> Dict:
-    query = arguments.get("query", "")
-    n = arguments.get("n", 5)
+# Pre-ingest data once on server start
+_ingested = False
+
+def _ensure_ingested():
+    global _ingested
+    if _ingested:
+        return
     
-    # Load from seed data for isolation
+    # Ingest Objections
     path = os.path.join(SEED_DIR, "objection_library.json")
-    items = []
     try:
         with open(path) as f:
             items = json.load(f)
-    except:
-        pass
-        
-    results = local_search_objections(query, items, n)
+        local_ingest_objections(items)
+    except Exception as e:
+        sys.stderr.write(f"Error ingesting objections: {e}\n")
+    
+    # Ingest Policy Docs
+    try:
+        local_ingest_policy_docs()
+    except Exception as e:
+        sys.stderr.write(f"Error ingesting policy docs: {e}\n")
+    
+    _ingested = True
+
+def search_objections(arguments: Dict) -> Dict:
+    _ensure_ingested()
+    query = arguments.get("query", "")
+    n = arguments.get("n", 5)
+    results = local_search_objections(query, n)
     return {"results": results}
 
 def search_policy_documents(arguments: Dict) -> Dict:
+    _ensure_ingested()
     query = arguments.get("query", "")
     product_type = arguments.get("product_type")
     n = arguments.get("n", 3)
-    results = search_policy_docs(query, product_type, n)
+    results = local_search_policy_docs(query, product_type, n)
     return {"results": results}
 
 def get_compliance_rules(arguments: Dict) -> Dict:

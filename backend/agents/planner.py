@@ -1,31 +1,11 @@
-"""Planner Agent using MCP for detailed execution plan."""
-import json, time, uuid
+import json, time, uuid, asyncio
 from typing import Dict, Any
-import google.generativeai as genai
-from config import GOOGLE_API_KEY, GEMINI_MODEL
+from agents.gemini_caller import call_gemini
+import prompts.all_prompts as ap
 from mcp_client.client import mcp
+from config import GEMINI_MODEL
 
-genai.configure(api_key=GOOGLE_API_KEY)
-
-PLANNER_PROMPT = """You are the Planner Agent of RenewAI at Suraksha Life Insurance.
-Your job is to create a detailed, personalized communication execution plan for a policy renewal.
-
-Given the orchestrator's strategy and customer/policy data, create a specific execution plan.
-Use the provided policy context and objection information to personalize the plan.
-
-The plan must include:
-- message_structure: how to structure the message (greeting, main message, CTA, closing)
-- key_benefit_points: 2-3 specific benefits to highlight based on product type
-- objection_responses_to_preload: top 3 likely objections for this customer
-- send_timing: specific time to send (e.g., "7:30 PM" based on preferred contact time)
-- personalization_elements: what personal details to include
-- payment_options_to_offer: relevant payment options
-- opening_line: the exact opening line to use
-- call_to_action: the specific CTA text
-
-Respond ONLY with valid JSON."""
-
-async def run_planner(policy_id: str, orchestrator_result: Dict) -> Dict[str, Any]:
+async def run_planner(policy_id: str, orchestrator_result: Dict, feedback: str = "") -> Dict[str, Any]:
     start = time.time()
     
     # Fetch data via MCP
@@ -52,42 +32,29 @@ async def run_planner(policy_id: str, orchestrator_result: Dict) -> Dict[str, An
     if customer.get("segment") == "budget_conscious":
         payment_options = ["Monthly EMI (2% loading)", "Quarterly instalments", "UPI AutoPay setup"]
     
-    model = genai.GenerativeModel(GEMINI_MODEL)
+    user_prompt = ap.PLANNER_USER_TEMPLATE.format(
+        orchestrator_output=json.dumps(orchestrator_result, indent=2),
+        customer_json=json.dumps(customer, indent=2),
+        policy_json=json.dumps(policy, indent=2),
+        rag_context="N/A", # Will add real RAG in Layer 3
+        objection_context=json.dumps(relevant_objections),
+        feedback=feedback or "None. This is the first attempt."
+    )
     
-    user_prompt = f"""
-ORCHESTRATOR STRATEGY:
-{json.dumps(orchestrator_result, indent=2)}
-
-POLICY: {policy.get('product_name')} | Premium: Rs.{policy.get('premium_amount',0):,} | Due: {policy.get('due_date')}
-CUSTOMER: {customer.get('full_name', customer.get('name'))} | Segment: {segment} | Tenure: {customer.get('tenure_years')} years | Language: {orchestrator_result.get('language')}
-RELEVANT OBJECTIONS: {json.dumps(relevant_objections)}
-PRODUCT BENEFITS: {json.dumps(benefits_map.get(product_type, benefits_map['term']))}
-PAYMENT OPTIONS: {json.dumps(payment_options)}
-
-Create a detailed execution plan. Use the customer's name "{customer.get('full_name', customer.get('name', 'valued customer'))}" in the opening.
-"""
+    result_call = await call_gemini(ap.PLANNER_SYSTEM_PROMPT, user_prompt)
+    result = result_call.get("data", {}) if result_call["success"] else None
     
-    try:
-        response = await asyncio.to_thread(
-            model.generate_content,
-            [PLANNER_PROMPT, user_prompt],
-            generation_config=genai.GenerationConfig(
-                response_mime_type="application/json",
-                max_output_tokens=600
-            )
-        )
-        result = json.loads(response.text)
-    except Exception as e:
+    if not result:
         result = {
             "message_structure": ["greeting", "policy_reminder", "benefit_highlight", "payment_cta", "opt_out"],
             "key_benefit_points": benefits_map.get(product_type, benefits_map["term"]),
-            "objection_responses_to_preload": [o.get("objection_text") for o in relevant_objections] if relevant_objections else ["payment_flexibility"],
+            "objection_responses_to_preload": [o.get("objection") for o in relevant_objections] if relevant_objections else ["payment_flexibility"],
             "send_timing": "7:30 PM" if customer.get("preferred_contact_time") == "evening" else "10:30 AM",
             "personalization_elements": ["customer_name", "policy_number", "premium_amount", "due_date"],
             "payment_options_to_offer": payment_options,
             "opening_line": f"Hi {customer.get('first_name', 'there')}, your {policy.get('product_name')} policy is up for renewal.",
             "call_to_action": "Tap here to renew now",
-            "error": str(e)
+            "error": result_call.get("error", "Unknown error")
         }
     
     latency_ms = int((time.time() - start) * 1000)
@@ -101,11 +68,10 @@ Create a detailed execution plan. Use the customer's name "{customer.get('full_n
             "action": "create_execution_plan",
             "input_summary": f"Plan created via MCP Knowledge Server",
             "output_summary": f"Plan created with {len(result.get('key_benefit_points',[]))} benefits",
-            "model_used": GEMINI_MODEL, "latency_ms": latency_ms,
-            "token_count_in": 400, "token_count_out": 300,
+            "model_used": result_call.get("model", GEMINI_MODEL), "latency_ms": latency_ms,
+            "token_count_in": result_call.get("token_count_in", 400), "token_count_out": result_call.get("token_count_out", 300),
             "verdict": "CREATED", "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "full_output": result
         }
     })
     return result
-import asyncio

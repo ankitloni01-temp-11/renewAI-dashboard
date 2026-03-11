@@ -10,3 +10,5 @@ pydantic==2.7.4
 aiohttp==3.9.5
 python-dotenv==1.0.1
 faker==25.2.0
+twilio==9.2.0
+aiosmtplib==3.0.1

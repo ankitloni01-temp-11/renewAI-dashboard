@@ -40,7 +40,7 @@ export default function KPIScorecard({ kpis }: KPIScorecardProps) {
                 </thead>
                 <tbody>
                     {kpiConfig.map(cfg => {
-                        const value = (kpis as Record<string, number>)[cfg.key] ?? 0
+                        const value = (kpis as unknown as Record<string, number>)[cfg.key] ?? 0
                         const status = getStatus(value, cfg.target, cfg.goodDirection)
                         const statusColor = { on_track: 'text-emerald-400', close: 'text-amber-400', behind: 'text-red-400' }[status]
                         const dot = { on_track: 'bg-emerald-400', close: 'bg-amber-400', behind: 'bg-red-400' }[status]

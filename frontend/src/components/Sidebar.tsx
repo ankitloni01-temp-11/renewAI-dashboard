@@ -1,26 +1,52 @@
 import { NavLink, useNavigate } from 'react-router-dom'
 import { useAuthStore } from '../stores/authStore'
-import { 
-  LayoutDashboard, Users, GitBranch, Bot, Search, 
-  AlertTriangle, LogOut, Shield, TrendingUp, Activity
+import { useEffect, useState } from 'react'
+import api from '../api/client'
+import {
+  LayoutDashboard, FileText, Bot,
+  AlertTriangle, ClipboardList, GitBranch, Search,
+  LogOut, Shield, Activity
 } from 'lucide-react'
 
-const navItems = [
-  { path: '/kpis', icon: LayoutDashboard, label: 'Executive KPIs', roles: ['renewal_head', 'admin'] },
-  { path: '/queue', icon: Users, label: 'Case Queue', roles: ['senior_rrm', 'revival_specialist', 'compliance_handler', 'renewal_head', 'admin'] },
-  { path: '/journeys', icon: GitBranch, label: 'Journeys', roles: ['admin', 'renewal_head', 'ai_ops_manager'] },
-  { path: '/ai-ops', icon: Bot, label: 'AI Operations', roles: ['ai_ops_manager', 'admin'] },
-  { path: '/trace', icon: Search, label: 'Trace Investigation', roles: ['compliance_handler', 'admin', 'renewal_head'] },
-  { path: '/grievance', icon: AlertTriangle, label: 'Grievance Register', roles: ['compliance_handler', 'admin'] },
+const sections = [
+  {
+    title: 'OPERATIONS',
+    items: [
+      { path: '/kpis', icon: LayoutDashboard, label: 'Overview' },
+      { path: '/policies', icon: FileText, label: 'Policies' },
+      { path: '/journeys', icon: GitBranch, label: 'Journeys' },
+      { path: '/agents', icon: Bot, label: 'Agents' },
+      { path: '/prompts', icon: FileText, label: 'Prompts' },
+    ]
+  },
+  {
+    title: 'INTELLIGENCE',
+    items: [
+      { path: '/trace', icon: Search, label: 'Trace Investigation' },
+    ]
+  },
+  {
+    title: 'HUMAN OVERSIGHT',
+    items: [
+      { path: '/escalation', icon: AlertTriangle, label: 'Escalation', badge: true },
+      { path: '/audit-log', icon: ClipboardList, label: 'Audit Log' },
+    ]
+  },
 ]
 
 export default function Sidebar() {
   const { user, logout } = useAuthStore()
   const navigate = useNavigate()
+  const [openCases, setOpenCases] = useState(0)
 
-  const visibleItems = navItems.filter(item => 
-    !item.roles || item.roles.includes(user?.role || '')
-  )
+  useEffect(() => {
+    const fetchCases = () => {
+      api.get('/api/human-queue?status=open').then(r => setOpenCases(r.data?.length || 0)).catch(() => { })
+    }
+    fetchCases()
+    const iv = setInterval(fetchCases, 10000)
+    return () => clearInterval(iv)
+  }, [])
 
   return (
     <div className="w-64 bg-[#1B4F8A] text-white flex flex-col h-full shadow-xl">
@@ -42,39 +68,40 @@ export default function Sidebar() {
         <div className="text-xs text-yellow-300 capitalize">{user?.role?.replace(/_/g, ' ')}</div>
       </div>
 
-      {/* Nav */}
-      <nav className="flex-1 px-2 py-4 space-y-1 overflow-y-auto">
-        {visibleItems.map(item => (
-          <NavLink
-            key={item.path}
-            to={item.path}
-            className={({ isActive }) =>
-              `flex items-center gap-3 px-3 py-2.5 rounded-lg text-sm transition-all ${
-                isActive
-                  ? 'bg-white text-[#1B4F8A] font-semibold shadow'
-                  : 'text-blue-100 hover:bg-blue-700'
-              }`
-            }
-          >
-            <item.icon className="w-4 h-4 flex-shrink-0" />
-            {item.label}
-          </NavLink>
+      {/* Nav Sections */}
+      <nav className="flex-1 px-2 py-3 overflow-y-auto space-y-4">
+        {sections.map(section => (
+          <div key={section.title}>
+            <div className="px-3 mb-1.5 text-[10px] font-bold text-blue-400 tracking-wider uppercase">{section.title}</div>
+            <div className="space-y-0.5">
+              {section.items.map(item => (
+                <NavLink
+                  key={item.path}
+                  to={item.path}
+                  className={({ isActive }) =>
+                    `flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all ${isActive
+                      ? 'bg-white text-[#1B4F8A] font-semibold shadow'
+                      : 'text-blue-100 hover:bg-blue-700'
+                    }`
+                  }
+                >
+                  <item.icon className="w-4 h-4 flex-shrink-0" />
+                  <span className="flex-1">{item.label}</span>
+                  {item.badge && openCases > 0 && (
+                    <span className="bg-red-500 text-white text-[10px] font-bold rounded-full w-5 h-5 flex items-center justify-center">{openCases}</span>
+                  )}
+                </NavLink>
+              ))}
+            </div>
+          </div>
         ))}
       </nav>
 
-      {/* Stats */}
-      <div className="px-4 py-3 border-t border-blue-700 space-y-1">
-        <div className="flex justify-between text-xs text-blue-300">
-          <span>Policyholders</span>
-          <span className="text-white font-medium">4.8M</span>
-        </div>
-        <div className="flex justify-between text-xs text-blue-300">
-          <span>Renewals/day</span>
-          <span className="text-white font-medium">~3,900</span>
-        </div>
-        <div className="flex justify-between text-xs text-blue-300">
-          <span>Team Size</span>
-          <span className="text-yellow-300 font-medium">20 specialists</span>
+      {/* AI Engine Status */}
+      <div className="px-4 py-3 border-t border-blue-700">
+        <div className="flex items-center gap-2 text-xs">
+          <Activity className="w-3.5 h-3.5 text-green-400 animate-pulse" />
+          <span className="text-green-400 font-medium">AI Engine Active</span>
         </div>
       </div>
 

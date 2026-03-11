@@ -1,0 +1,3070 @@
+{
+  "customers": [
+    {
+      "customer_id": "CUST-0001",
+      "name": "Rajesh Kumar",
+      "age": 42,
+      "city": "Pune",
+      "phone": "+91-98765-43210",
+      "email": "rajesh.kumar@example.com",
+      "preferred_language": "hi",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-0002",
+      "name": "Meenakshi Iyer",
+      "age": 55,
+      "city": "Chennai",
+      "phone": "+91-70000-00598",
+      "email": "meenakshi.iyer@example.com",
+      "preferred_language": "ta",
+      "segment": "Budget Conscious",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-0003",
+      "name": "Vikram Mehta",
+      "age": 35,
+      "city": "Mumbai",
+      "phone": "+91-98200-55678",
+      "email": "vikram.mehta@example.com",
+      "preferred_language": "en",
+      "segment": "Young Professional",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00100",
+      "name": "Arun Sharma",
+      "age": 62,
+      "city": "Jaipur",
+      "phone": "+91-79175-80970",
+      "email": "arun.sharma@example.com",
+      "preferred_language": "gu",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00101",
+      "name": "Vikas Yadav",
+      "age": 53,
+      "city": "Pune",
+      "phone": "+91-84458-93623",
+      "email": "vikas.yadav@example.com",
+      "preferred_language": "gu",
+      "segment": "Wealth Builder",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00102",
+      "name": "Rahul Gupta",
+      "age": 50,
+      "city": "Kolkata",
+      "phone": "+91-86474-59083",
+      "email": "rahul.gupta@example.com",
+      "preferred_language": "gu",
+      "segment": "Budget Conscious",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00103",
+      "name": "Rahul Kumar",
+      "age": 26,
+      "city": "Ahmedabad",
+      "phone": "+91-98755-47778",
+      "email": "rahul.kumar@example.com",
+      "preferred_language": "gu",
+      "segment": "Senior Citizen",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00104",
+      "name": "Sree Kulkarni",
+      "age": 64,
+      "city": "Pune",
+      "phone": "+91-88138-54920",
+      "email": "sree.kulkarni@example.com",
+      "preferred_language": "en",
+      "segment": "Wealth Builder",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00105",
+      "name": "Sanjay Pawar",
+      "age": 53,
+      "city": "Mumbai",
+      "phone": "+91-76052-77008",
+      "email": "sanjay.pawar@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00106",
+      "name": "Sunil Gupta",
+      "age": 64,
+      "city": "Kolkata",
+      "phone": "+91-95046-53592",
+      "email": "sunil.gupta@example.com",
+      "preferred_language": "hi",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00107",
+      "name": "Sachin Kumar",
+      "age": 25,
+      "city": "Delhi",
+      "phone": "+91-75151-20056",
+      "email": "sachin.kumar@example.com",
+      "preferred_language": "ta",
+      "segment": "Middle Income",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00108",
+      "name": "Arun More",
+      "age": 49,
+      "city": "Jaipur",
+      "phone": "+91-83426-22400",
+      "email": "arun.more@example.com",
+      "preferred_language": "ta",
+      "segment": "Young Professional",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00109",
+      "name": "Sanjay Kulkarni",
+      "age": 39,
+      "city": "Bangalore",
+      "phone": "+91-96616-20304",
+      "email": "sanjay.kulkarni@example.com",
+      "preferred_language": "mr",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00110",
+      "name": "Pooja Kulkarni",
+      "age": 47,
+      "city": "Kolkata",
+      "phone": "+91-80614-41635",
+      "email": "pooja.kulkarni@example.com",
+      "preferred_language": "kn",
+      "segment": "Budget Conscious",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00111",
+      "name": "Sree Gupta",
+      "age": 59,
+      "city": "Bangalore",
+      "phone": "+91-73870-93938",
+      "email": "sree.gupta@example.com",
+      "preferred_language": "kn",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00112",
+      "name": "Rahul Sharma",
+      "age": 34,
+      "city": "Chennai",
+      "phone": "+91-77930-36864",
+      "email": "rahul.sharma@example.com",
+      "preferred_language": "gu",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00113",
+      "name": "Deepak Gupta",
+      "age": 38,
+      "city": "Mumbai",
+      "phone": "+91-88570-50391",
+      "email": "deepak.gupta@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00114",
+      "name": "Vikas Singh",
+      "age": 60,
+      "city": "Ahmedabad",
+      "phone": "+91-84282-90115",
+      "email": "vikas.singh@example.com",
+      "preferred_language": "gu",
+      "segment": "Wealth Builder",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00115",
+      "name": "Sree Iyer",
+      "age": 31,
+      "city": "Bangalore",
+      "phone": "+91-85082-57574",
+      "email": "sree.iyer@example.com",
+      "preferred_language": "en",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00116",
+      "name": "Kavita Patel",
+      "age": 42,
+      "city": "Kolkata",
+      "phone": "+91-94404-30425",
+      "email": "kavita.patel@example.com",
+      "preferred_language": "ta",
+      "segment": "Budget Conscious",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00117",
+      "name": "Meera Pawar",
+      "age": 31,
+      "city": "Pune",
+      "phone": "+91-98740-53239",
+      "email": "meera.pawar@example.com",
+      "preferred_language": "gu",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00118",
+      "name": "Vikas Sharma",
+      "age": 35,
+      "city": "Lucknow",
+      "phone": "+91-84962-93020",
+      "email": "vikas.sharma@example.com",
+      "preferred_language": "ta",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00119",
+      "name": "Sree Mehta",
+      "age": 52,
+      "city": "Lucknow",
+      "phone": "+91-90530-43332",
+      "email": "sree.mehta@example.com",
+      "preferred_language": "gu",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00120",
+      "name": "Anil Nair",
+      "age": 57,
+      "city": "Hyderabad",
+      "phone": "+91-85921-17342",
+      "email": "anil.nair@example.com",
+      "preferred_language": "en",
+      "segment": "Senior Citizen",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00121",
+      "name": "Neha Patil",
+      "age": 35,
+      "city": "Pune",
+      "phone": "+91-79383-14086",
+      "email": "neha.patil@example.com",
+      "preferred_language": "mr",
+      "segment": "Wealth Builder",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00122",
+      "name": "Sneha Gupta",
+      "age": 32,
+      "city": "Delhi",
+      "phone": "+91-80838-72059",
+      "email": "sneha.gupta@example.com",
+      "preferred_language": "ta",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00123",
+      "name": "Sneha Reddy",
+      "age": 34,
+      "city": "Delhi",
+      "phone": "+91-81152-94510",
+      "email": "sneha.reddy@example.com",
+      "preferred_language": "ta",
+      "segment": "Young Professional",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00124",
+      "name": "Karthik Patil",
+      "age": 57,
+      "city": "Lucknow",
+      "phone": "+91-91649-46459",
+      "email": "karthik.patil@example.com",
+      "preferred_language": "gu",
+      "segment": "Budget Conscious",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00125",
+      "name": "Sachin Gupta",
+      "age": 25,
+      "city": "Pune",
+      "phone": "+91-90789-41008",
+      "email": "sachin.gupta@example.com",
+      "preferred_language": "kn",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00126",
+      "name": "Meera More",
+      "age": 62,
+      "city": "Mumbai",
+      "phone": "+91-70355-90005",
+      "email": "meera.more@example.com",
+      "preferred_language": "kn",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00127",
+      "name": "Kavita Yadav",
+      "age": 32,
+      "city": "Pune",
+      "phone": "+91-90759-32997",
+      "email": "kavita.yadav@example.com",
+      "preferred_language": "kn",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00128",
+      "name": "Anjali Patel",
+      "age": 55,
+      "city": "Pune",
+      "phone": "+91-79201-29246",
+      "email": "anjali.patel@example.com",
+      "preferred_language": "hi",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00129",
+      "name": "Arun Joshi",
+      "age": 33,
+      "city": "Pune",
+      "phone": "+91-72296-73767",
+      "email": "arun.joshi@example.com",
+      "preferred_language": "ta",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00130",
+      "name": "Deepak Kumar",
+      "age": 35,
+      "city": "Mumbai",
+      "phone": "+91-83802-69646",
+      "email": "deepak.kumar@example.com",
+      "preferred_language": "en",
+      "segment": "Young Professional",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00131",
+      "name": "Manoj Singh",
+      "age": 35,
+      "city": "Kolkata",
+      "phone": "+91-73110-21996",
+      "email": "manoj.singh@example.com",
+      "preferred_language": "hi",
+      "segment": "Budget Conscious",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00132",
+      "name": "Sree Nair",
+      "age": 64,
+      "city": "Jaipur",
+      "phone": "+91-88219-93710",
+      "email": "sree.nair@example.com",
+      "preferred_language": "ta",
+      "segment": "Young Professional",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00133",
+      "name": "Neha Joshi",
+      "age": 27,
+      "city": "Ahmedabad",
+      "phone": "+91-96165-48674",
+      "email": "neha.joshi@example.com",
+      "preferred_language": "gu",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00134",
+      "name": "Manoj Patel",
+      "age": 65,
+      "city": "Jaipur",
+      "phone": "+91-73115-97660",
+      "email": "manoj.patel@example.com",
+      "preferred_language": "mr",
+      "segment": "Young Professional",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00135",
+      "name": "Manoj Sharma",
+      "age": 40,
+      "city": "Delhi",
+      "phone": "+91-89604-77628",
+      "email": "manoj.sharma@example.com",
+      "preferred_language": "gu",
+      "segment": "Young Professional",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00136",
+      "name": "Priyanka More",
+      "age": 55,
+      "city": "Jaipur",
+      "phone": "+91-83809-62196",
+      "email": "priyanka.more@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00137",
+      "name": "Karthik Patel",
+      "age": 32,
+      "city": "Bangalore",
+      "phone": "+91-88275-13418",
+      "email": "karthik.patel@example.com",
+      "preferred_language": "mr",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00138",
+      "name": "Vikas Verma",
+      "age": 38,
+      "city": "Bangalore",
+      "phone": "+91-80647-18382",
+      "email": "vikas.verma@example.com",
+      "preferred_language": "en",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00139",
+      "name": "Kavita Yadav",
+      "age": 37,
+      "city": "Chennai",
+      "phone": "+91-88198-42376",
+      "email": "kavita.yadav@example.com",
+      "preferred_language": "kn",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00140",
+      "name": "Priyanka Kumar",
+      "age": 56,
+      "city": "Ahmedabad",
+      "phone": "+91-81272-38030",
+      "email": "priyanka.kumar@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00141",
+      "name": "Sree Sharma",
+      "age": 54,
+      "city": "Pune",
+      "phone": "+91-87935-93652",
+      "email": "sree.sharma@example.com",
+      "preferred_language": "hi",
+      "segment": "Wealth Builder",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00142",
+      "name": "Sanjay Patel",
+      "age": 45,
+      "city": "Mumbai",
+      "phone": "+91-91553-30728",
+      "email": "sanjay.patel@example.com",
+      "preferred_language": "kn",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00143",
+      "name": "Sunil Patel",
+      "age": 54,
+      "city": "Bangalore",
+      "phone": "+91-92422-30523",
+      "email": "sunil.patel@example.com",
+      "preferred_language": "kn",
+      "segment": "Budget Conscious",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00144",
+      "name": "Anil Iyer",
+      "age": 42,
+      "city": "Jaipur",
+      "phone": "+91-74063-54434",
+      "email": "anil.iyer@example.com",
+      "preferred_language": "gu",
+      "segment": "Budget Conscious",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00145",
+      "name": "Arun Nair",
+      "age": 39,
+      "city": "Ahmedabad",
+      "phone": "+91-93905-48460",
+      "email": "arun.nair@example.com",
+      "preferred_language": "mr",
+      "segment": "Senior Citizen",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00146",
+      "name": "Amit Sharma",
+      "age": 38,
+      "city": "Delhi",
+      "phone": "+91-92056-71465",
+      "email": "amit.sharma@example.com",
+      "preferred_language": "en",
+      "segment": "Senior Citizen",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00147",
+      "name": "Priyanka Singh",
+      "age": 54,
+      "city": "Hyderabad",
+      "phone": "+91-93015-60745",
+      "email": "priyanka.singh@example.com",
+      "preferred_language": "hi",
+      "segment": "Young Professional",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00148",
+      "name": "Sanjay More",
+      "age": 64,
+      "city": "Kolkata",
+      "phone": "+91-73864-95789",
+      "email": "sanjay.more@example.com",
+      "preferred_language": "mr",
+      "segment": "Young Professional",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00149",
+      "name": "Sunil Pawar",
+      "age": 41,
+      "city": "Hyderabad",
+      "phone": "+91-75410-91790",
+      "email": "sunil.pawar@example.com",
+      "preferred_language": "gu",
+      "segment": "Budget Conscious",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00150",
+      "name": "Amit More",
+      "age": 52,
+      "city": "Chennai",
+      "phone": "+91-76132-27871",
+      "email": "amit.more@example.com",
+      "preferred_language": "kn",
+      "segment": "Budget Conscious",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00151",
+      "name": "Sachin Patel",
+      "age": 44,
+      "city": "Lucknow",
+      "phone": "+91-89490-57651",
+      "email": "sachin.patel@example.com",
+      "preferred_language": "gu",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00152",
+      "name": "Priyanka Gupta",
+      "age": 35,
+      "city": "Hyderabad",
+      "phone": "+91-82706-46623",
+      "email": "priyanka.gupta@example.com",
+      "preferred_language": "hi",
+      "segment": "Middle Income",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00153",
+      "name": "Vikas Joshi",
+      "age": 41,
+      "city": "Bangalore",
+      "phone": "+91-77819-78410",
+      "email": "vikas.joshi@example.com",
+      "preferred_language": "kn",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00154",
+      "name": "Vikas Yadav",
+      "age": 65,
+      "city": "Bangalore",
+      "phone": "+91-83249-54277",
+      "email": "vikas.yadav@example.com",
+      "preferred_language": "mr",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00155",
+      "name": "Priyanka Patil",
+      "age": 34,
+      "city": "Bangalore",
+      "phone": "+91-84043-19597",
+      "email": "priyanka.patil@example.com",
+      "preferred_language": "en",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00156",
+      "name": "Arun Verma",
+      "age": 27,
+      "city": "Hyderabad",
+      "phone": "+91-77747-10393",
+      "email": "arun.verma@example.com",
+      "preferred_language": "ta",
+      "segment": "Young Professional",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00157",
+      "name": "Sneha Pawar",
+      "age": 51,
+      "city": "Hyderabad",
+      "phone": "+91-92264-68024",
+      "email": "sneha.pawar@example.com",
+      "preferred_language": "ta",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00158",
+      "name": "Sachin Iyer",
+      "age": 53,
+      "city": "Bangalore",
+      "phone": "+91-88313-39325",
+      "email": "sachin.iyer@example.com",
+      "preferred_language": "kn",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00159",
+      "name": "Vikas Patel",
+      "age": 31,
+      "city": "Jaipur",
+      "phone": "+91-90740-63011",
+      "email": "vikas.patel@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00160",
+      "name": "Anil Singh",
+      "age": 45,
+      "city": "Kolkata",
+      "phone": "+91-95055-46513",
+      "email": "anil.singh@example.com",
+      "preferred_language": "hi",
+      "segment": "Middle Income",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00161",
+      "name": "Meera Mehta",
+      "age": 56,
+      "city": "Hyderabad",
+      "phone": "+91-97495-84161",
+      "email": "meera.mehta@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00162",
+      "name": "Anjali Yadav",
+      "age": 36,
+      "city": "Kolkata",
+      "phone": "+91-94339-58444",
+      "email": "anjali.yadav@example.com",
+      "preferred_language": "kn",
+      "segment": "Wealth Builder",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00163",
+      "name": "Sneha Mehta",
+      "age": 25,
+      "city": "Kolkata",
+      "phone": "+91-87521-25467",
+      "email": "sneha.mehta@example.com",
+      "preferred_language": "hi",
+      "segment": "Young Professional",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00164",
+      "name": "Rahul Patil",
+      "age": 39,
+      "city": "Jaipur",
+      "phone": "+91-86759-27890",
+      "email": "rahul.patil@example.com",
+      "preferred_language": "mr",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00165",
+      "name": "Manoj Patel",
+      "age": 36,
+      "city": "Bangalore",
+      "phone": "+91-98697-79007",
+      "email": "manoj.patel@example.com",
+      "preferred_language": "ta",
+      "segment": "Wealth Builder",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00166",
+      "name": "Sree Iyer",
+      "age": 59,
+      "city": "Jaipur",
+      "phone": "+91-88737-59289",
+      "email": "sree.iyer@example.com",
+      "preferred_language": "kn",
+      "segment": "Budget Conscious",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00167",
+      "name": "Sree Iyer",
+      "age": 39,
+      "city": "Mumbai",
+      "phone": "+91-71925-20961",
+      "email": "sree.iyer@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00168",
+      "name": "Sachin Gupta",
+      "age": 45,
+      "city": "Mumbai",
+      "phone": "+91-72041-99464",
+      "email": "sachin.gupta@example.com",
+      "preferred_language": "hi",
+      "segment": "Wealth Builder",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00169",
+      "name": "Sneha Pawar",
+      "age": 30,
+      "city": "Hyderabad",
+      "phone": "+91-88190-49438",
+      "email": "sneha.pawar@example.com",
+      "preferred_language": "ta",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00170",
+      "name": "Deepak Verma",
+      "age": 46,
+      "city": "Mumbai",
+      "phone": "+91-82547-75569",
+      "email": "deepak.verma@example.com",
+      "preferred_language": "hi",
+      "segment": "Senior Citizen",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00171",
+      "name": "Neha Yadav",
+      "age": 36,
+      "city": "Pune",
+      "phone": "+91-92094-64210",
+      "email": "neha.yadav@example.com",
+      "preferred_language": "gu",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00172",
+      "name": "Anjali Nair",
+      "age": 64,
+      "city": "Ahmedabad",
+      "phone": "+91-77118-99454",
+      "email": "anjali.nair@example.com",
+      "preferred_language": "en",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00173",
+      "name": "Neha Gupta",
+      "age": 29,
+      "city": "Chennai",
+      "phone": "+91-75672-53304",
+      "email": "neha.gupta@example.com",
+      "preferred_language": "hi",
+      "segment": "Wealth Builder",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00174",
+      "name": "Priyanka Kulkarni",
+      "age": 55,
+      "city": "Jaipur",
+      "phone": "+91-72235-32242",
+      "email": "priyanka.kulkarni@example.com",
+      "preferred_language": "gu",
+      "segment": "Wealth Builder",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00175",
+      "name": "Rahul More",
+      "age": 59,
+      "city": "Pune",
+      "phone": "+91-91623-47622",
+      "email": "rahul.more@example.com",
+      "preferred_language": "hi",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00176",
+      "name": "Pooja Kulkarni",
+      "age": 31,
+      "city": "Delhi",
+      "phone": "+91-86063-98953",
+      "email": "pooja.kulkarni@example.com",
+      "preferred_language": "kn",
+      "segment": "Senior Citizen",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00177",
+      "name": "Arun Kumar",
+      "age": 45,
+      "city": "Mumbai",
+      "phone": "+91-76728-51245",
+      "email": "arun.kumar@example.com",
+      "preferred_language": "mr",
+      "segment": "Senior Citizen",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00178",
+      "name": "Vikas Patel",
+      "age": 60,
+      "city": "Ahmedabad",
+      "phone": "+91-93953-31368",
+      "email": "vikas.patel@example.com",
+      "preferred_language": "kn",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00179",
+      "name": "Deepak Sharma",
+      "age": 52,
+      "city": "Chennai",
+      "phone": "+91-96854-37945",
+      "email": "deepak.sharma@example.com",
+      "preferred_language": "en",
+      "segment": "Budget Conscious",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00180",
+      "name": "Pooja Patel",
+      "age": 51,
+      "city": "Lucknow",
+      "phone": "+91-97721-86901",
+      "email": "pooja.patel@example.com",
+      "preferred_language": "mr",
+      "segment": "Young Professional",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00181",
+      "name": "Meera Sharma",
+      "age": 54,
+      "city": "Chennai",
+      "phone": "+91-75390-42861",
+      "email": "meera.sharma@example.com",
+      "preferred_language": "mr",
+      "segment": "Budget Conscious",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00182",
+      "name": "Sree Patel",
+      "age": 56,
+      "city": "Mumbai",
+      "phone": "+91-70411-80033",
+      "email": "sree.patel@example.com",
+      "preferred_language": "hi",
+      "segment": "Middle Income",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00183",
+      "name": "Anil Verma",
+      "age": 58,
+      "city": "Bangalore",
+      "phone": "+91-85795-65309",
+      "email": "anil.verma@example.com",
+      "preferred_language": "en",
+      "segment": "Wealth Builder",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00184",
+      "name": "Sunita Nair",
+      "age": 51,
+      "city": "Kolkata",
+      "phone": "+91-78651-40032",
+      "email": "sunita.nair@example.com",
+      "preferred_language": "hi",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00185",
+      "name": "Sunita Patel",
+      "age": 45,
+      "city": "Chennai",
+      "phone": "+91-99485-15184",
+      "email": "sunita.patel@example.com",
+      "preferred_language": "kn",
+      "segment": "Wealth Builder",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00186",
+      "name": "Vikas Patil",
+      "age": 64,
+      "city": "Kolkata",
+      "phone": "+91-70908-98208",
+      "email": "vikas.patil@example.com",
+      "preferred_language": "kn",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00187",
+      "name": "Karthik Yadav",
+      "age": 39,
+      "city": "Delhi",
+      "phone": "+91-88370-55176",
+      "email": "karthik.yadav@example.com",
+      "preferred_language": "kn",
+      "segment": "Young Professional",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00188",
+      "name": "Kavita Gupta",
+      "age": 41,
+      "city": "Kolkata",
+      "phone": "+91-78981-24739",
+      "email": "kavita.gupta@example.com",
+      "preferred_language": "mr",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00189",
+      "name": "Amit Yadav",
+      "age": 55,
+      "city": "Ahmedabad",
+      "phone": "+91-79160-93431",
+      "email": "amit.yadav@example.com",
+      "preferred_language": "kn",
+      "segment": "Budget Conscious",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00190",
+      "name": "Deepak Reddy",
+      "age": 46,
+      "city": "Mumbai",
+      "phone": "+91-85849-11082",
+      "email": "deepak.reddy@example.com",
+      "preferred_language": "hi",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00191",
+      "name": "Amit Yadav",
+      "age": 34,
+      "city": "Ahmedabad",
+      "phone": "+91-87466-48547",
+      "email": "amit.yadav@example.com",
+      "preferred_language": "en",
+      "segment": "Budget Conscious",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00192",
+      "name": "Rahul Patil",
+      "age": 30,
+      "city": "Hyderabad",
+      "phone": "+91-76912-49237",
+      "email": "rahul.patil@example.com",
+      "preferred_language": "hi",
+      "segment": "Middle Income",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00193",
+      "name": "Manoj Iyer",
+      "age": 63,
+      "city": "Chennai",
+      "phone": "+91-79006-39692",
+      "email": "manoj.iyer@example.com",
+      "preferred_language": "ta",
+      "segment": "Budget Conscious",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00194",
+      "name": "Anjali Joshi",
+      "age": 26,
+      "city": "Pune",
+      "phone": "+91-90041-10154",
+      "email": "anjali.joshi@example.com",
+      "preferred_language": "ta",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00195",
+      "name": "Sachin Gupta",
+      "age": 51,
+      "city": "Chennai",
+      "phone": "+91-85974-49477",
+      "email": "sachin.gupta@example.com",
+      "preferred_language": "kn",
+      "segment": "Wealth Builder",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00196",
+      "name": "Sree More",
+      "age": 63,
+      "city": "Jaipur",
+      "phone": "+91-82220-68884",
+      "email": "sree.more@example.com",
+      "preferred_language": "gu",
+      "segment": "Young Professional",
+      "communication_preference": "voice"
+    },
+    {
+      "customer_id": "CUST-00197",
+      "name": "Sneha Patel",
+      "age": 49,
+      "city": "Ahmedabad",
+      "phone": "+91-71080-51066",
+      "email": "sneha.patel@example.com",
+      "preferred_language": "mr",
+      "segment": "Middle Income",
+      "communication_preference": "email"
+    },
+    {
+      "customer_id": "CUST-00198",
+      "name": "Karthik Kulkarni",
+      "age": 65,
+      "city": "Chennai",
+      "phone": "+91-86129-90465",
+      "email": "karthik.kulkarni@example.com",
+      "preferred_language": "kn",
+      "segment": "Young Professional",
+      "communication_preference": "whatsapp"
+    },
+    {
+      "customer_id": "CUST-00199",
+      "name": "Vikas Pawar",
+      "age": 55,
+      "city": "Hyderabad",
+      "phone": "+91-83535-45709",
+      "email": "vikas.pawar@example.com",
+      "preferred_language": "en",
+      "segment": "Young Professional",
+      "communication_preference": "voice"
+    }
+  ],
+  "policies": [
+    {
+      "policy_id": "SLI-2298741",
+      "customer_id": "CUST-0001",
+      "product_name": "Term Shield Plus",
+      "product_type": "term",
+      "premium": 24000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-15",
+      "status": "OVERDUE",
+      "effective_status": "PAID"
+    },
+    {
+      "policy_id": "SLI-8872134",
+      "customer_id": "CUST-0002",
+      "product_name": "Secure Endowment Plan",
+      "product_type": "endowment",
+      "premium": 18000,
+      "sum_assured": 500000,
+      "due_date": "2026-02-28",
+      "status": "OVERDUE"
+    },
+    {
+      "policy_id": "SLI-5567123",
+      "customer_id": "CUST-0003",
+      "product_name": "Wealth Builder ULIP",
+      "product_type": "ulip",
+      "premium": 50000,
+      "sum_assured": 2500000,
+      "due_date": "2026-03-10",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8275047",
+      "customer_id": "CUST-00100",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 250000,
+      "sum_assured": 50000000,
+      "due_date": "2026-03-20",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2279076",
+      "customer_id": "CUST-00101",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "ulip",
+      "premium": 250000,
+      "sum_assured": 10000000,
+      "due_date": "2026-06-19",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3562028",
+      "customer_id": "CUST-00102",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "pension",
+      "premium": 36000,
+      "sum_assured": 5000000,
+      "due_date": "2026-04-09",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5308770",
+      "customer_id": "CUST-00103",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 12000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-06",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8167186",
+      "customer_id": "CUST-00104",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 120000,
+      "sum_assured": 50000000,
+      "due_date": "2026-06-11",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9155554",
+      "customer_id": "CUST-00105",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 15000,
+      "sum_assured": 50000000,
+      "due_date": "2026-04-12",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3427993",
+      "customer_id": "CUST-00106",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 12000,
+      "sum_assured": 20000000,
+      "due_date": "2026-02-22",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-4237236",
+      "customer_id": "CUST-00107",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "ulip",
+      "premium": 12000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-31",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2731001",
+      "customer_id": "CUST-00108",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 120000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-28",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1815421",
+      "customer_id": "CUST-00109",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 250000,
+      "sum_assured": 5000000,
+      "due_date": "2026-08-24",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-6408426",
+      "customer_id": "CUST-00110",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 12000,
+      "sum_assured": 10000000,
+      "due_date": "2026-07-29",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5557639",
+      "customer_id": "CUST-00111",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 36000,
+      "sum_assured": 20000000,
+      "due_date": "2026-07-17",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9369584",
+      "customer_id": "CUST-00112",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "term",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-07-11",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2325404",
+      "customer_id": "CUST-00113",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "term",
+      "premium": 120000,
+      "sum_assured": 10000000,
+      "due_date": "2026-09-04",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2865994",
+      "customer_id": "CUST-00114",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "pension",
+      "premium": 120000,
+      "sum_assured": 50000000,
+      "due_date": "2026-06-15",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7872674",
+      "customer_id": "CUST-00115",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 48000,
+      "sum_assured": 5000000,
+      "due_date": "2026-04-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7371693",
+      "customer_id": "CUST-00116",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "term",
+      "premium": 12000,
+      "sum_assured": 10000000,
+      "due_date": "2026-08-01",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9764864",
+      "customer_id": "CUST-00117",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "ulip",
+      "premium": 12000,
+      "sum_assured": 5000000,
+      "due_date": "2026-02-28",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7181882",
+      "customer_id": "CUST-00118",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 250000,
+      "sum_assured": 10000000,
+      "due_date": "2026-07-03",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7257322",
+      "customer_id": "CUST-00119",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "ulip",
+      "premium": 24000,
+      "sum_assured": 50000000,
+      "due_date": "2026-03-04",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-6526750",
+      "customer_id": "CUST-00120",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 36000,
+      "sum_assured": 50000000,
+      "due_date": "2026-05-14",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5774869",
+      "customer_id": "CUST-00121",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 250000,
+      "sum_assured": 20000000,
+      "due_date": "2026-04-18",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7199366",
+      "customer_id": "CUST-00122",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "endowment",
+      "premium": 120000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-02",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8109248",
+      "customer_id": "CUST-00123",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "pension",
+      "premium": 48000,
+      "sum_assured": 50000000,
+      "due_date": "2026-08-26",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7421898",
+      "customer_id": "CUST-00124",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "pension",
+      "premium": 36000,
+      "sum_assured": 5000000,
+      "due_date": "2026-02-22",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-4767578",
+      "customer_id": "CUST-00125",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "ulip",
+      "premium": 24000,
+      "sum_assured": 5000000,
+      "due_date": "2026-05-08",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3023665",
+      "customer_id": "CUST-00126",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "ulip",
+      "premium": 15000,
+      "sum_assured": 50000000,
+      "due_date": "2026-08-27",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-6654954",
+      "customer_id": "CUST-00127",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "term",
+      "premium": 24000,
+      "sum_assured": 5000000,
+      "due_date": "2026-03-28",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3243696",
+      "customer_id": "CUST-00128",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "endowment",
+      "premium": 36000,
+      "sum_assured": 50000000,
+      "due_date": "2026-03-26",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2204421",
+      "customer_id": "CUST-00129",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "endowment",
+      "premium": 24000,
+      "sum_assured": 5000000,
+      "due_date": "2026-09-02",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-6765515",
+      "customer_id": "CUST-00130",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "term",
+      "premium": 48000,
+      "sum_assured": 5000000,
+      "due_date": "2026-04-20",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-4830918",
+      "customer_id": "CUST-00131",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "pension",
+      "premium": 120000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-08",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-6422032",
+      "customer_id": "CUST-00132",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "ulip",
+      "premium": 15000,
+      "sum_assured": 20000000,
+      "due_date": "2026-08-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5011265",
+      "customer_id": "CUST-00133",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "term",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-02-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1274445",
+      "customer_id": "CUST-00134",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "term",
+      "premium": 120000,
+      "sum_assured": 10000000,
+      "due_date": "2026-04-07",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7036055",
+      "customer_id": "CUST-00135",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 48000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2352116",
+      "customer_id": "CUST-00136",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "pension",
+      "premium": 24000,
+      "sum_assured": 50000000,
+      "due_date": "2026-04-04",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3026860",
+      "customer_id": "CUST-00137",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 15000,
+      "sum_assured": 5000000,
+      "due_date": "2026-07-24",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-4932110",
+      "customer_id": "CUST-00138",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "ulip",
+      "premium": 250000,
+      "sum_assured": 5000000,
+      "due_date": "2026-04-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1014018",
+      "customer_id": "CUST-00139",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "pension",
+      "premium": 24000,
+      "sum_assured": 20000000,
+      "due_date": "2026-04-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5838209",
+      "customer_id": "CUST-00140",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 12000,
+      "sum_assured": 10000000,
+      "due_date": "2026-06-11",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9473583",
+      "customer_id": "CUST-00141",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 15000,
+      "sum_assured": 5000000,
+      "due_date": "2026-03-01",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8702827",
+      "customer_id": "CUST-00142",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "term",
+      "premium": 36000,
+      "sum_assured": 20000000,
+      "due_date": "2026-05-08",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9247325",
+      "customer_id": "CUST-00143",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 48000,
+      "sum_assured": 50000000,
+      "due_date": "2026-06-17",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8389121",
+      "customer_id": "CUST-00144",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "ulip",
+      "premium": 24000,
+      "sum_assured": 50000000,
+      "due_date": "2026-02-24",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9880198",
+      "customer_id": "CUST-00145",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 24000,
+      "sum_assured": 5000000,
+      "due_date": "2026-06-29",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8530137",
+      "customer_id": "CUST-00146",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-08-07",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7688760",
+      "customer_id": "CUST-00147",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "endowment",
+      "premium": 12000,
+      "sum_assured": 5000000,
+      "due_date": "2026-08-05",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8656217",
+      "customer_id": "CUST-00148",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "pension",
+      "premium": 36000,
+      "sum_assured": 5000000,
+      "due_date": "2026-02-28",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9585137",
+      "customer_id": "CUST-00149",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 15000,
+      "sum_assured": 20000000,
+      "due_date": "2026-08-30",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9048083",
+      "customer_id": "CUST-00150",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "pension",
+      "premium": 24000,
+      "sum_assured": 20000000,
+      "due_date": "2026-07-03",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9393679",
+      "customer_id": "CUST-00151",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 36000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-05",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7836439",
+      "customer_id": "CUST-00152",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "pension",
+      "premium": 24000,
+      "sum_assured": 10000000,
+      "due_date": "2026-07-30",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7274512",
+      "customer_id": "CUST-00153",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "pension",
+      "premium": 15000,
+      "sum_assured": 5000000,
+      "due_date": "2026-07-14",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2341141",
+      "customer_id": "CUST-00154",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 48000,
+      "sum_assured": 50000000,
+      "due_date": "2026-07-11",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9119220",
+      "customer_id": "CUST-00155",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 15000,
+      "sum_assured": 5000000,
+      "due_date": "2026-02-22",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8326612",
+      "customer_id": "CUST-00156",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "term",
+      "premium": 120000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-26",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-4708314",
+      "customer_id": "CUST-00157",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 250000,
+      "sum_assured": 50000000,
+      "due_date": "2026-08-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3653634",
+      "customer_id": "CUST-00158",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "pension",
+      "premium": 120000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-30",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8389486",
+      "customer_id": "CUST-00159",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "term",
+      "premium": 120000,
+      "sum_assured": 5000000,
+      "due_date": "2026-06-14",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3312285",
+      "customer_id": "CUST-00160",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "pension",
+      "premium": 250000,
+      "sum_assured": 50000000,
+      "due_date": "2026-02-27",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1944182",
+      "customer_id": "CUST-00161",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 250000,
+      "sum_assured": 10000000,
+      "due_date": "2026-09-05",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7014840",
+      "customer_id": "CUST-00162",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 24000,
+      "sum_assured": 10000000,
+      "due_date": "2026-04-21",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7102543",
+      "customer_id": "CUST-00163",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 15000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-31",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3882626",
+      "customer_id": "CUST-00164",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-08-02",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7862717",
+      "customer_id": "CUST-00165",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "ulip",
+      "premium": 48000,
+      "sum_assured": 50000000,
+      "due_date": "2026-02-24",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1319180",
+      "customer_id": "CUST-00166",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "ulip",
+      "premium": 250000,
+      "sum_assured": 20000000,
+      "due_date": "2026-02-28",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9612798",
+      "customer_id": "CUST-00167",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "pension",
+      "premium": 48000,
+      "sum_assured": 10000000,
+      "due_date": "2026-04-14",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1743073",
+      "customer_id": "CUST-00168",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "pension",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-06-14",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3574720",
+      "customer_id": "CUST-00169",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "term",
+      "premium": 250000,
+      "sum_assured": 20000000,
+      "due_date": "2026-07-25",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2013811",
+      "customer_id": "CUST-00170",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "term",
+      "premium": 15000,
+      "sum_assured": 50000000,
+      "due_date": "2026-06-30",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5392630",
+      "customer_id": "CUST-00171",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 24000,
+      "sum_assured": 50000000,
+      "due_date": "2026-03-08",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2869117",
+      "customer_id": "CUST-00172",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "ulip",
+      "premium": 15000,
+      "sum_assured": 5000000,
+      "due_date": "2026-03-08",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1497883",
+      "customer_id": "CUST-00173",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "ulip",
+      "premium": 24000,
+      "sum_assured": 10000000,
+      "due_date": "2026-07-18",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2491875",
+      "customer_id": "CUST-00174",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "term",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-04-17",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5508219",
+      "customer_id": "CUST-00175",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "pension",
+      "premium": 15000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-07",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9598793",
+      "customer_id": "CUST-00176",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 15000,
+      "sum_assured": 20000000,
+      "due_date": "2026-07-10",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8791250",
+      "customer_id": "CUST-00177",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 24000,
+      "sum_assured": 50000000,
+      "due_date": "2026-07-31",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3487677",
+      "customer_id": "CUST-00178",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "term",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-02",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1877155",
+      "customer_id": "CUST-00179",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "ulip",
+      "premium": 24000,
+      "sum_assured": 10000000,
+      "due_date": "2026-04-06",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3058607",
+      "customer_id": "CUST-00180",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "term",
+      "premium": 12000,
+      "sum_assured": 5000000,
+      "due_date": "2026-06-07",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7522277",
+      "customer_id": "CUST-00181",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "pension",
+      "premium": 15000,
+      "sum_assured": 5000000,
+      "due_date": "2026-08-22",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-6866805",
+      "customer_id": "CUST-00182",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 15000,
+      "sum_assured": 10000000,
+      "due_date": "2026-04-05",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-4021621",
+      "customer_id": "CUST-00183",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "pension",
+      "premium": 12000,
+      "sum_assured": 50000000,
+      "due_date": "2026-04-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8680722",
+      "customer_id": "CUST-00184",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 12000,
+      "sum_assured": 50000000,
+      "due_date": "2026-04-19",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-7762315",
+      "customer_id": "CUST-00185",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "ulip",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-25",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5080798",
+      "customer_id": "CUST-00186",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 12000,
+      "sum_assured": 20000000,
+      "due_date": "2026-05-14",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8643122",
+      "customer_id": "CUST-00187",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 24000,
+      "sum_assured": 20000000,
+      "due_date": "2026-07-15",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9477430",
+      "customer_id": "CUST-00188",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 48000,
+      "sum_assured": 20000000,
+      "due_date": "2026-07-07",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9401865",
+      "customer_id": "CUST-00189",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 24000,
+      "sum_assured": 5000000,
+      "due_date": "2026-08-30",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1997945",
+      "customer_id": "CUST-00190",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "term",
+      "premium": 12000,
+      "sum_assured": 20000000,
+      "due_date": "2026-03-02",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-1304810",
+      "customer_id": "CUST-00191",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "term",
+      "premium": 24000,
+      "sum_assured": 20000000,
+      "due_date": "2026-06-04",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2391888",
+      "customer_id": "CUST-00192",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "endowment",
+      "premium": 24000,
+      "sum_assured": 10000000,
+      "due_date": "2026-03-20",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3136648",
+      "customer_id": "CUST-00193",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "ulip",
+      "premium": 15000,
+      "sum_assured": 5000000,
+      "due_date": "2026-04-22",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-8977557",
+      "customer_id": "CUST-00194",
+      "product_name": "Suraksha Endowment Plus",
+      "product_type": "ulip",
+      "premium": 48000,
+      "sum_assured": 50000000,
+      "due_date": "2026-03-21",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-2048072",
+      "customer_id": "CUST-00195",
+      "product_name": "Suraksha Wealth Builder",
+      "product_type": "endowment",
+      "premium": 48000,
+      "sum_assured": 5000000,
+      "due_date": "2026-05-17",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5294442",
+      "customer_id": "CUST-00196",
+      "product_name": "Suraksha Term Shield",
+      "product_type": "term",
+      "premium": 24000,
+      "sum_assured": 10000000,
+      "due_date": "2026-07-15",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-9289281",
+      "customer_id": "CUST-00197",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 15000,
+      "sum_assured": 20000000,
+      "due_date": "2026-04-23",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-3491030",
+      "customer_id": "CUST-00198",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "term",
+      "premium": 120000,
+      "sum_assured": 5000000,
+      "due_date": "2026-08-11",
+      "status": "ACTIVE"
+    },
+    {
+      "policy_id": "SLI-5752416",
+      "customer_id": "CUST-00199",
+      "product_name": "Suraksha Pension Secure",
+      "product_type": "endowment",
+      "premium": 48000,
+      "sum_assured": 10000000,
+      "due_date": "2026-07-19",
+      "status": "ACTIVE"
+    }
+  ],
+  "journeys": [
+    {
+      "policy_id": "SLI-2298741",
+      "customer_id": "CUST-0001",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "tone": "friendly",
+      "started_at": "2026-03-08T05:30:00Z",
+      "updated_at": "2026-03-11T04:06:07.856855",
+      "payment_amount": 24000
+    },
+    {
+      "policy_id": "SLI-8872134",
+      "customer_id": "CUST-0002",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "ta",
+      "tone": "empathetic",
+      "started_at": "2026-03-07T06:00:00Z",
+      "updated_at": "2026-03-11T04:05:10.464795",
+      "payment_amount": null
+    },
+    {
+      "policy_id": "SLI-5567123",
+      "customer_id": "CUST-0003",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "email",
+      "language": "en",
+      "tone": "professional",
+      "started_at": "2026-03-08T09:00:00Z",
+      "updated_at": "2026-03-09T04:05:59.163338",
+      "payment_amount": null
+    },
+    {
+      "policy_id": "SLI-8680722",
+      "customer_id": "CUST-00184",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:30.409258",
+      "updated_at": "2026-03-09T04:39:30.409271"
+    },
+    {
+      "policy_id": "SLI-4932110",
+      "customer_id": "CUST-00138",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:30.409284",
+      "updated_at": "2026-03-09T04:39:30.409287"
+    },
+    {
+      "policy_id": "SLI-3653634",
+      "customer_id": "CUST-00158",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:30.409299",
+      "updated_at": "2026-03-09T04:39:30.409302"
+    },
+    {
+      "policy_id": "SLI-8530137",
+      "customer_id": "CUST-00146",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:30.409312",
+      "updated_at": "2026-03-09T04:39:30.409316"
+    },
+    {
+      "policy_id": "SLI-5011265",
+      "customer_id": "CUST-00133",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:30.409325",
+      "updated_at": "2026-03-09T04:39:30.409328"
+    },
+    {
+      "policy_id": "SLI-9473583",
+      "customer_id": "CUST-00141",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:37.317670",
+      "updated_at": "2026-03-09T04:39:37.317680"
+    },
+    {
+      "policy_id": "SLI-4021621",
+      "customer_id": "CUST-00183",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:37.317695",
+      "updated_at": "2026-03-09T04:39:37.317698"
+    },
+    {
+      "policy_id": "SLI-5294442",
+      "customer_id": "CUST-00196",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:37.317712",
+      "updated_at": "2026-03-09T04:39:37.317714"
+    },
+    {
+      "policy_id": "SLI-8702827",
+      "customer_id": "CUST-00142",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:37.317723",
+      "updated_at": "2026-03-09T04:39:37.317725"
+    },
+    {
+      "policy_id": "SLI-6765515",
+      "customer_id": "CUST-00130",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-09T04:39:37.317733",
+      "updated_at": "2026-03-09T04:39:37.317735"
+    },
+    {
+      "policy_id": "SLI-5774869",
+      "customer_id": "CUST-00121",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T03:38:56.635114",
+      "updated_at": "2026-03-11T03:38:56.635129"
+    },
+    {
+      "policy_id": "SLI-8167186",
+      "customer_id": "CUST-00104",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T03:38:56.635141",
+      "updated_at": "2026-03-11T03:38:56.635144"
+    },
+    {
+      "policy_id": "SLI-9764864",
+      "customer_id": "CUST-00117",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T03:38:56.635151",
+      "updated_at": "2026-03-11T03:38:56.635154"
+    },
+    {
+      "policy_id": "SLI-2048072",
+      "customer_id": "CUST-00195",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T03:38:56.635169",
+      "updated_at": "2026-03-11T03:38:56.635171"
+    },
+    {
+      "policy_id": "SLI-1877155",
+      "customer_id": "CUST-00179",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T03:38:56.635201",
+      "updated_at": "2026-03-11T03:38:56.635206"
+    },
+    {
+      "policy_id": "SLI-4708314",
+      "customer_id": "CUST-00157",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T04:06:42.650398",
+      "updated_at": "2026-03-11T04:06:42.650407"
+    },
+    {
+      "policy_id": "SLI-3136648",
+      "customer_id": "CUST-00193",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T04:06:42.650421",
+      "updated_at": "2026-03-11T04:06:42.650423"
+    },
+    {
+      "policy_id": "SLI-7762315",
+      "customer_id": "CUST-00185",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T04:06:42.650434",
+      "updated_at": "2026-03-11T04:06:42.650436"
+    },
+    {
+      "policy_id": "SLI-3487677",
+      "customer_id": "CUST-00178",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T04:06:42.650446",
+      "updated_at": "2026-03-11T04:06:42.650448"
+    },
+    {
+      "policy_id": "SLI-7199366",
+      "customer_id": "CUST-00122",
+      "status": "started",
+      "current_step": "orchestrator_complete",
+      "channel": "whatsapp",
+      "language": "hi",
+      "started_at": "2026-03-11T04:06:42.650480",
+      "updated_at": "2026-03-11T04:06:42.650483"
+    }
+  ],
+  "escalation_cases": [
+    {
+      "case_id": "ESC-001",
+      "policy_id": "SLI-4421098",
+      "customer_id": "CUST-0011",
+      "customer_name": "Mohan Gupta",
+      "product_name": "Jeevan Raksha Plan",
+      "premium": 30000,
+      "priority": 0.9,
+      "status": "resolved",
+      "reason": "Inbound distress detected: 'HUMAN' (via WhatsApp)",
+      "created_at": "2026-03-07T06:20:00Z",
+      "resolution_outcome": "Declined",
+      "resolution_notes": "",
+      "resolved_at": "2026-03-09T03:45:52.705287Z"
+    },
+    {
+      "case_id": "ESC-002",
+      "policy_id": "SLI-8754321",
+      "customer_id": "CUST-0010",
+      "customer_name": "Fatima Shaikh",
+      "product_name": "Family Protection Plan",
+      "premium": 16000,
+      "priority": 0.9,
+      "status": "resolved",
+      "reason": "Inbound distress detected: 'HUMAN' (via WhatsApp)",
+      "created_at": "2026-03-08T06:22:00Z",
+      "resolution_outcome": "Surrendered",
+      "resolution_notes": "",
+      "resolved_at": "2026-03-11T04:07:30.316263Z"
+    },
+    {
+      "case_id": "ESC-003",
+      "policy_id": "SLI-5421098",
+      "customer_id": "CUST-0013",
+      "customer_name": "Pooja Tiwari",
+      "product_name": "Term Shield Plus",
+      "premium": 5500,
+      "priority": 0.9,
+      "status": "open",
+      "reason": "Inbound distress detected: 'HUMAN' (via WhatsApp)",
+      "created_at": "2026-03-08T10:15:00Z"
+    },
+    {
+      "case_id": "ESC-004",
+      "policy_id": "SLI-7643210",
+      "customer_id": "CUST-0005",
+      "customer_name": "Rajan Nambiar",
+      "product_name": "Term Shield Plus",
+      "premium": 11000,
+      "priority": 0.9,
+      "status": "open",
+      "reason": "Financial hardship \u2014 job loss",
+      "created_at": "2026-03-06T09:30:00Z"
+    },
+    {
+      "case_id": "ESC-005",
+      "policy_id": "SLI-8872134",
+      "customer_id": "CUST-0002",
+      "customer_name": "Meenakshi Iyer",
+      "product_name": "Secure Endowment Plan",
+      "premium": 18000,
+      "priority": 0.6,
+      "status": "open",
+      "reason": "Distress flag is false, but the customer has expressed significant financial hardship and grief ('husband passed away', 'premium is too high'). Multiple WhatsApp attempts have been made with no resolution. Voice is the best channel to offer empathy and explore flexible payment options.",
+      "created_at": "2026-03-07T08:45:00Z"
+    }
+  ],
+  "audit_log": [
+    {
+      "timestamp": "2026-03-11T04:06:07.856868",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-11T04:05:10.464806",
+      "policy_id": "SLI-8872134",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-11T03:39:02.960701",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T05:09:02.816217",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T05:05:15.345389",
+      "policy_id": "SLI-8872134",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T04:39:57.588615",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T04:09:27.069239",
+      "policy_id": "SLI-8872134",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T04:06:22.218285",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Channel Router",
+      "action": "PAYMENT_CONFIRMED",
+      "evidence": "Payment of \u20b924,000 received and reconciled via Razorpay.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T04:05:59.163349",
+      "policy_id": "SLI-5567123",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T04:05:46.353443",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:58:01.737393",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Channel Router",
+      "action": "PAYMENT_CONFIRMED",
+      "evidence": "Payment of \u20b924,000 received and reconciled via Razorpay.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:57:40.242483",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:55:34.636195",
+      "policy_id": "SLI-5567123",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:54:48.627591",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:51:04.672626",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:48:21.999259",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:48:04.719968",
+      "policy_id": "SLI-8872134",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:47:50.219511",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:45:57.779738",
+      "policy_id": "SLI-8872134",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:43:24.575616",
+      "policy_id": "SLI-5567123",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:43:11.655816",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:39:35.163511",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-09T03:39:29.374181",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Orchestrator",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "Selected WhatsApp as primary channel based on historical engagement.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:06Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: WhatsApp | Reason: Customer's preferred channel is WhatsApp and there is no prior interaction history to suggest otherwise. | Language: Hindi | Tone: friendly",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:07Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "CRITIQUE_A",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_A] Verdict: APPROVED | Confidence: 1.0 | Evidence: Customer's preferred channel is WhatsApp. Channel attempts for WhatsApp is 0, indicating it has not been exhausted. Distress flag is False.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:10Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for WhatsApp | Tone: friendly | Language: Hindi | Steps: 1. Send greeting with policy details 2. Include premium amount and due date 3. Provide UPI payment link 4. Offer EMI options if needed",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:12Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "WhatsApp Agent",
+      "action": "CONTENT_DRAFTED",
+      "evidence": "[DRAFT_AGENT] Draft generated for WhatsApp | Distress: False | Message: \"Namaste Rajesh-ji! Aapki Suraksha Term Shield Plus policy (SLI-2298741) ka renewal \u20b924,000 mein 15 March tak due hai. Aapke parivaar ki \u20b91 Crore ki suraksha jaari rakhein. UPI se turant pay karein: [PAYMENT_LINK]. Koi sawaal? Hum yahan hain! \u2014 Suraksha AI Assistant\"",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:14Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "CRITIQUE_B",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_B] Issues noted but proceeding: 1. Ensure premium of \u20b924,000 is consistently mentioned. 2. Add mandatory AI disclosure line. 3. Include the due date in the message. Overall: APPROVED with minor suggestions.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T05:30:14Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_SENT",
+      "evidence": "[CHANNEL_ROUTER] Message dispatched via WhatsApp | Status: Success | Twilio SID: SM_demo_001",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T11:15:00Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "WhatsApp Agent",
+      "action": "PAYMENT_CONFIRMED",
+      "evidence": "Customer responded and paid \u20b924,000 via UPI. Payment confirmed. Journey complete.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:00:06Z",
+      "policy_id": "SLI-8872134",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: WhatsApp | Reason: Customer prefers WhatsApp. Tamil language selected based on profile. | Language: Tamil | Tone: empathetic",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:00:07Z",
+      "policy_id": "SLI-8872134",
+      "agent_name": "CRITIQUE_A",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_A] Verdict: APPROVED | Confidence: 0.95 | Evidence: WhatsApp is preferred. No prior attempts. Distress flag is False at this stage.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:00:10Z",
+      "policy_id": "SLI-8872134",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for WhatsApp | Tone: empathetic | Language: Tamil | Steps: 1. Gentle greeting 2. Policy details 3. Payment link 4. Offer callback option",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:00:13Z",
+      "policy_id": "SLI-8872134",
+      "agent_name": "WhatsApp Agent",
+      "action": "CONTENT_DRAFTED",
+      "evidence": "[DRAFT_AGENT] Draft generated for WhatsApp in Tamil | Distress: False | Message: \"Vanakkam Meenakshi-ji! Ungal Suraksha Secure Endowment Plan (SLI-8872134) renewal \u20b918,000 February 28 anru due aagirukkiradhu...\"",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:00:14Z",
+      "policy_id": "SLI-8872134",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_SENT",
+      "evidence": "[CHANNEL_ROUTER] Message dispatched via WhatsApp | Status: Success | Twilio SID: SM_demo_002",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T08:45:00Z",
+      "policy_id": "SLI-8872134",
+      "agent_name": "CONTENT_SAFETY",
+      "action": "DISTRESS_DETECTED",
+      "evidence": "Customer responded: 'En kanavar kaalam aayitta. Indha premium romba adhigam.' (My husband passed away. This premium is too much.) Distress keywords detected: bereavement, financial hardship.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T08:45:01Z",
+      "policy_id": "SLI-8872134",
+      "agent_name": "ORCHESTRATOR",
+      "action": "ESCALATED_TO_HUMAN",
+      "evidence": "Escalated to human queue with priority 0.6. Reason: Bereavement and financial hardship detected. Assigned to Senior RRM queue.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T09:00:06Z",
+      "policy_id": "SLI-5567123",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: Email | Reason: Customer's preferred channel is Email. Young professional segment, English language. | Language: English | Tone: professional",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T09:00:07Z",
+      "policy_id": "SLI-5567123",
+      "agent_name": "CRITIQUE_A",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_A] Verdict: APPROVED | Confidence: 1.0 | Evidence: Email is customer's preferred channel. No prior attempts. Professional tone appropriate for Young Professional segment.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T09:00:10Z",
+      "policy_id": "SLI-5567123",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for Email | Tone: professional | Language: English | Steps: 1. Professional subject line 2. ULIP fund performance highlight 3. Premium details 4. One-click payment CTA",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T09:00:12Z",
+      "policy_id": "SLI-5567123",
+      "agent_name": "Email Agent",
+      "action": "CONTENT_DRAFTED",
+      "evidence": "[DRAFT_AGENT] Draft generated for Email | Subject: Your Wealth Builder ULIP Renewal \u2014 \u20b950,000 Due March 10 | Body includes fund performance (+14.2% YTD), tax benefits under 10(10D), and secure payment link.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T09:00:14Z",
+      "policy_id": "SLI-5567123",
+      "agent_name": "CRITIQUE_A",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_B] APPROVED. All compliance checks passed. AI disclosure present. No guaranteed returns language. IRDAI registration mentioned.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T09:12:00Z",
+      "policy_id": "SLI-5567123",
+      "agent_name": "Email Agent",
+      "action": "EMAIL_SENT",
+      "evidence": "SendGrid Status: Success | Message ID: msg_demo_003 | Delivered to vikram.mehta@example.com",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T10:00:06Z",
+      "policy_id": "SLI-7754321",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: WhatsApp | Reason: Senior citizen, Hindi speaker. Voice is preferred but WhatsApp attempted first for convenience. | Language: Hindi | Tone: respectful",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T10:00:07Z",
+      "policy_id": "SLI-7754321",
+      "agent_name": "CRITIQUE_A",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_A] Verdict: APPROVED | Confidence: 0.85 | Evidence: While voice is preferred, WhatsApp is a valid first attempt. Senior citizen requires respectful tone.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T10:00:10Z",
+      "policy_id": "SLI-7754321",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for WhatsApp | Tone: respectful | Language: Hindi | Steps: 1. Respectful greeting 2. Simple policy reminder 3. Payment assistance offer 4. Helpline number",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T10:00:12Z",
+      "policy_id": "SLI-7754321",
+      "agent_name": "WhatsApp Agent",
+      "action": "CONTENT_DRAFTED",
+      "evidence": "[DRAFT_AGENT] Draft generated for WhatsApp | \"Pranam Shanta Devi-ji! Aapki Suraksha Senior Care Plus policy (SLI-7754321) ka renewal \u20b935,000 mein 20 Feb tak due hai. Kya aap chahti hain ki hum aapko phone par madad karein?\"",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T10:00:14Z",
+      "policy_id": "SLI-7754321",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_SENT",
+      "evidence": "[CHANNEL_ROUTER] Message dispatched via WhatsApp | Status: Success | Twilio SID: SM_demo_004",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-06T07:00:06Z",
+      "policy_id": "SLI-7643210",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: WhatsApp | Reason: Customer prefers WhatsApp. English language. Middle Income segment. | Language: English | Tone: empathetic",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-06T07:00:07Z",
+      "policy_id": "SLI-7643210",
+      "agent_name": "CRITIQUE_A",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_A] Verdict: APPROVED | Confidence: 1.0 | Evidence: WhatsApp is preferred. No exhaustion.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-06T07:00:10Z",
+      "policy_id": "SLI-7643210",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for WhatsApp | Tone: empathetic | Language: English",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-06T07:00:12Z",
+      "policy_id": "SLI-7643210",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_SENT",
+      "evidence": "[CHANNEL_ROUTER] Message dispatched via WhatsApp | Status: Success | Twilio SID: SM_demo_005",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-06T09:30:00Z",
+      "policy_id": "SLI-7643210",
+      "agent_name": "CONTENT_SAFETY",
+      "action": "DISTRESS_DETECTED",
+      "evidence": "Customer responded: 'I lost my job last month. I cannot afford this premium right now.' Financial hardship keywords detected.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-06T09:30:01Z",
+      "policy_id": "SLI-7643210",
+      "agent_name": "ORCHESTRATOR",
+      "action": "ESCALATED_TO_HUMAN",
+      "evidence": "Escalated to human queue with priority 0.9. Reason: Financial hardship \u2014 job loss. Immediate premium holiday discussion needed.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T06:10:06Z",
+      "policy_id": "SLI-8754321",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: WhatsApp | Reason: Customer prefers WhatsApp. Urdu language. | Language: Urdu | Tone: friendly",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T06:10:07Z",
+      "policy_id": "SLI-8754321",
+      "agent_name": "CRITIQUE_A",
+      "action": "COMPLIANCE_CHECK_PASSED",
+      "evidence": "[CRITIQUE_A] Verdict: APPROVED | Confidence: 1.0 | Urdu WhatsApp is appropriate.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T06:10:10Z",
+      "policy_id": "SLI-8754321",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for WhatsApp | Tone: friendly | Language: Urdu",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T06:10:12Z",
+      "policy_id": "SLI-8754321",
+      "agent_name": "WhatsApp Agent",
+      "action": "CONTENT_DRAFTED",
+      "evidence": "[DRAFT_AGENT] Draft generated for WhatsApp in Urdu | \"Assalaam Alaikum Fatima-ji! Aapki Suraksha Family Protection Plan (SLI-8754321) ka renewal \u20b916,000 mein 5 March tak due hai...\"",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T06:18:57Z",
+      "policy_id": "SLI-8754321",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_FAIL",
+      "evidence": "Twilio Request Failed: HTTP Error. Account exceeded 50 daily messages limit. Retrying in 60 seconds.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T06:20:00Z",
+      "policy_id": "SLI-8754321",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_SENT",
+      "evidence": "[CHANNEL_ROUTER] Message dispatched via WhatsApp (retry) | Status: Success | Twilio SID: SM_demo_006",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T04:00:06Z",
+      "policy_id": "SLI-4421098",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: WhatsApp | Reason: Senior citizen, Hindi. Voice preferred but WhatsApp first. | Language: Hindi | Tone: empathetic",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T04:00:10Z",
+      "policy_id": "SLI-4421098",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for WhatsApp | Tone: empathetic | Language: Hindi",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T04:00:12Z",
+      "policy_id": "SLI-4421098",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_SENT",
+      "evidence": "[CHANNEL_ROUTER] Message dispatched via WhatsApp | Status: Success",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:18:27Z",
+      "policy_id": "SLI-4421098",
+      "agent_name": "Voice Agent",
+      "action": "VOICE_CALL_INITIATED",
+      "evidence": "IVR call initiated | Duration: 0ms | Escalate: False | Customer did not answer.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:20:00Z",
+      "policy_id": "SLI-4421098",
+      "agent_name": "CONTENT_SAFETY",
+      "action": "DISTRESS_DETECTED",
+      "evidence": "Customer responded via WhatsApp: 'HUMAN'. Explicit human agent request detected.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T06:20:01Z",
+      "policy_id": "SLI-4421098",
+      "agent_name": "ORCHESTRATOR",
+      "action": "ESCALATED_TO_HUMAN",
+      "evidence": "Escalated to human queue with priority 0.9. Reason: Inbound distress detected: 'HUMAN' (via WhatsApp).",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T10:00:06Z",
+      "policy_id": "SLI-5421098",
+      "agent_name": "ORCHESTRATOR",
+      "action": "CHANNEL_SELECTED",
+      "evidence": "[ORCHESTRATOR] Selected channel: WhatsApp | Reason: Young Professional, Hindi. WhatsApp preferred. | Language: Hindi | Tone: friendly",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T10:00:10Z",
+      "policy_id": "SLI-5421098",
+      "agent_name": "PLANNER",
+      "action": "PLAN_GENERATED",
+      "evidence": "[PLANNER] Plan built for WhatsApp | Tone: friendly | Language: Hindi",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T10:00:13Z",
+      "policy_id": "SLI-5421098",
+      "agent_name": "WhatsApp Agent",
+      "action": "WHATSAPP_SENT",
+      "evidence": "Twilio Status: Success",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T10:11:13Z",
+      "policy_id": "SLI-5421098",
+      "agent_name": "CONTENT_SAFETY",
+      "action": "DISTRESS_DETECTED",
+      "evidence": "Customer responded with distress: 'Mujhe bahut pareshani ho rahi hai. Kuch samajh nahi aa raha.' Emotional distress detected.",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T10:15:00Z",
+      "policy_id": "SLI-5421098",
+      "agent_name": "ORCHESTRATOR",
+      "action": "ESCALATED_TO_HUMAN",
+      "evidence": "Escalated to human queue with priority 0.9. Reason: Inbound distress detected (via WhatsApp).",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-08T05:45:22Z",
+      "policy_id": "SLI-2298741",
+      "agent_name": "Email Agent",
+      "action": "EMAIL_SENT",
+      "evidence": "SendGrid Status: Success | Backup email also sent to rajesh.kumar@example.com",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T04:30:00Z",
+      "policy_id": "SLI-3310987",
+      "agent_name": "Email Agent",
+      "action": "EMAIL_SENT",
+      "evidence": "SendGrid Status: Success | Delivered to lakshmi.krishnan@example.com",
+      "prompt_version": "v1"
+    },
+    {
+      "timestamp": "2026-03-07T05:00:00Z",
+      "policy_id": "SLI-3345678",
+      "agent_name": "Email Agent",
+      "action": "EMAIL_SENT",
+      "evidence": "SendGrid Status: Success | Delivered to anjali.kapoor@example.com",
+      "prompt_version": "v1"
+    }
+  ]
+}

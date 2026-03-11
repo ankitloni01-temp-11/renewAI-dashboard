@@ -13,6 +13,7 @@ journeys: Dict[str, Any] = {}
 audit_trail: List[Dict[str, Any]] = []
 conversations: Dict[str, List[Dict[str, Any]]] = {}
 human_queue: Dict[str, Any] = {}
+audit_all: List[Dict[str, Any]] = []
 team_members: Dict[str, Any] = {}
 messages: Dict[str, Dict[str, Any]] = {}
 
@@ -20,7 +21,7 @@ SEED_DIR = "/home/labuser/VSCODE_training/renewai-demo/backend/seed_data"
 
 def load():
     """Load all seed data into memory."""
-    global customers, policies, propensity, team_members
+    global customers, policies, propensity, team_members, journeys, human_queue
     
     # Customers
     try:
@@ -53,6 +54,22 @@ def load():
             team_members = {m["employee_id"]: m for m in data}
     except Exception as e:
         print(f"Error loading team: {e}", file=sys.stderr)
+
+    # Journeys
+    try:
+        with open(os.path.join(SEED_DIR, "preseeded_journeys.json")) as f:
+            data = json.load(f)
+            journeys = {j["policy_id"]: j for j in data}
+    except Exception as e:
+        print(f"Error loading journeys: {e}", file=sys.stderr)
+
+    # Human Queue
+    try:
+        with open(os.path.join(SEED_DIR, "preseeded_queue.json")) as f:
+            data = json.load(f)
+            human_queue = {q["policy_id"]: q for q in data}
+    except Exception as e:
+        print(f"Error loading queue: {e}", file=sys.stderr)
 
 # Call load on import
 load()

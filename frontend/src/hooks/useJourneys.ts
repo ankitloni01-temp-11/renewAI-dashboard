@@ -4,7 +4,7 @@ export const useJourneys = (status?: string) => {
   return useQuery({
     queryKey: ['journeys', status],
     queryFn: async () => {
-      const { data } = await api.get('/api/journeys', { params: status ? { status } : {} })
+      const { data } = await api.get('/api/journeys', { params: status ? { status_filter: status } : {} })
       return data
     },
     refetchInterval: 4000

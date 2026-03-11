@@ -4,7 +4,7 @@ import asyncio
 from datetime import datetime, date
 from typing import Dict, Any
 from agents.gemini_caller import call_gemini
-from prompts.all_prompts import ORCHESTRATOR_SYSTEM_PROMPT, ORCHESTRATOR_USER_TEMPLATE
+import prompts.all_prompts as ap
 from mcp_client.client import mcp
 
 
@@ -27,7 +27,7 @@ async def run_orchestrator(policy_id: str) -> Dict[str, Any]:
     except Exception:
         pass
 
-    user_prompt = ORCHESTRATOR_USER_TEMPLATE.format(
+    user_prompt = ap.ORCHESTRATOR_USER_TEMPLATE.format(
         current_date=date.today().isoformat(),
         days_to_due=days_to_due,
         customer_json=json.dumps(customer_data, ensure_ascii=False),
@@ -36,7 +36,7 @@ async def run_orchestrator(policy_id: str) -> Dict[str, Any]:
         conversation_history=json.dumps(conversation_history[-5:], ensure_ascii=False) if conversation_history else "[]"
     )
 
-    result = await call_gemini(ORCHESTRATOR_SYSTEM_PROMPT, user_prompt)
+    result = await call_gemini(ap.ORCHESTRATOR_SYSTEM_PROMPT, user_prompt, use_pro=True)
 
     # Write audit event via MCP
     event = {

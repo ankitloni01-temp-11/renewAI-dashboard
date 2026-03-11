@@ -78,7 +78,7 @@ export default function CaseDetailPage() {
             <div className="mt-3">
               <p className="text-xs text-gray-500 mb-1">Payment History</p>
               <div className="flex gap-1 flex-wrap">
-                {paymentDots.map((d, i) => <div key={i} className="w-4 h-4 rounded-full" style={{ backgroundColor: d.color }} title={`Year ${i+1}`} />)}
+                {paymentDots.map((d: { color: string }, i: number) => <div key={i} className="w-4 h-4 rounded-full" style={{ backgroundColor: d.color }} title={`Year ${i + 1}`} />)}
               </div>
             </div>
           )}
@@ -112,22 +112,22 @@ export default function CaseDetailPage() {
         {conversations.length === 0
           ? <p className="text-sm text-gray-500 italic">No conversation history. Run Meenakshi's demo journey and type a distress message in WhatsApp Simulator.</p>
           : <div className="space-y-2">
-              {conversations.slice(-10).map((msg: Record<string, string>, i: number) => (
-                <div key={i} className={`flex gap-3 ${msg.role === 'ai' ? '' : 'flex-row-reverse'}`}>
-                  <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 ${msg.role === 'ai' ? 'bg-blue-600 text-white' : 'bg-green-600 text-white'}`}>
-                    {msg.role === 'ai' ? 'AI' : 'C'}
-                  </div>
-                  <div className={`flex-1 max-w-lg rounded-lg p-2 text-sm ${msg.role === 'ai' ? 'bg-blue-50' : 'bg-green-50'}`}>
-                    <p>{msg.ai_response || msg.customer_text}</p>
-                    <div className="flex gap-2 mt-1">
-                      {msg.detected_intent && <span className="text-xs text-gray-400">{msg.detected_intent}</span>}
-                      {msg.critique_score && <span className="text-xs text-blue-600">{parseFloat(msg.critique_score).toFixed(1)}/10</span>}
-                      <span className="text-xs text-gray-400">{formatDate(msg.timestamp)}</span>
-                    </div>
+            {conversations.slice(-10).map((msg: Record<string, string>, i: number) => (
+              <div key={i} className={`flex gap-3 ${msg.role === 'ai' ? '' : 'flex-row-reverse'}`}>
+                <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 ${msg.role === 'ai' ? 'bg-blue-600 text-white' : 'bg-green-600 text-white'}`}>
+                  {msg.role === 'ai' ? 'AI' : 'C'}
+                </div>
+                <div className={`flex-1 max-w-lg rounded-lg p-2 text-sm ${msg.role === 'ai' ? 'bg-blue-50' : 'bg-green-50'}`}>
+                  <p>{msg.ai_response || msg.customer_text}</p>
+                  <div className="flex gap-2 mt-1">
+                    {msg.detected_intent && <span className="text-xs text-gray-400">{msg.detected_intent}</span>}
+                    {msg.critique_score && <span className="text-xs text-blue-600">{parseFloat(msg.critique_score).toFixed(1)}/10</span>}
+                    <span className="text-xs text-gray-400">{formatDate(msg.timestamp)}</span>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
+          </div>
         }
       </div>
 

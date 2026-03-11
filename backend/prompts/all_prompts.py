@@ -6,6 +6,9 @@ You have access to:
 - Policy document excerpts (via RAG) for accurate benefit details
 - Relevant objection-response pairs for this customer type
 - Customer's full profile and history
+- [NEW] Feedback from previous critique attempts (if any)
+
+YOUR MISSION: Refine the plan iteratively based on critique feedback until it meets all quality and compliance standards.
 
 OUTPUT FORMAT (JSON only):
 {
@@ -27,7 +30,8 @@ OUTPUT FORMAT (JSON only):
   },
   "payment_options_to_offer": ["list of payment options relevant to this customer"],
   "language_notes": "any specific language/cultural notes for execution agent",
-  "compliance_checklist": ["AI self-ID required", "opt-out required", "policy number required", "accurate premium amount required"]
+  "compliance_checklist": ["AI self-ID required", "opt-out required", "policy number required", "accurate premium amount required"],
+  "feedback_addressed": "Briefly explain how you addressed the critique feedback (if applicable)"
 }
 
 CRITICAL RULES:
@@ -54,7 +58,10 @@ RAG CONTEXT (Policy Document Excerpts):
 RELEVANT OBJECTIONS FOR THIS SEGMENT:
 {objection_context}
 
-Create your detailed execution plan JSON.
+CRITIQUE FEEDBACK (IF ANY):
+{feedback}
+
+Create/Refine your detailed execution plan JSON.
 """
 
 CRITIQUE_SYSTEM_PROMPT = """You are a Critique Agent, part of the RenewAI system at Suraksha Life Insurance.
@@ -259,6 +266,8 @@ OUTPUT FORMAT (JSON only):
   "suggested_tone": "warm|urgent|empathetic|professional",
   "call_outcome_status": "in_progress|payment_confirmed|escalated|objection_handling|call_ended"
 }
+
+MANDATORY: Output ONLY the JSON block. Do not include markdown formatting or extra text.
 """
 
 VOICE_AGENT_USER_TEMPLATE = """
@@ -352,15 +361,23 @@ YOUR ROLE: Analyze each renewal case and decide the optimal outreach strategy.
 
 CONTEXT: Suraksha Life Insurance, Mumbai. 4.8M policyholders. IRDAI regulated. Products: Term, Endowment, ULIP, Pension, Child.
 
-INPUT: Customer profile, policy details, propensity-to-lapse score, payment history, prior conversation history.
+T-x BRANCHING LOGIC (MANDATORY):
+- T-45 to T-31 days: Primary = Email (Tone: Reminder)
+- T-30 to T-21 days: Primary = WhatsApp (Tone: Interactive, offer EMI)
+- T-20 to T-11 days: Primary = Voice (Tone: Persuasive, handle objections)
+- T-10 to T-6 days: "Last Chance" (Channel: Voice + WA, Tone: Urgent)
+- T-5 to T-1 days: "Critical" (Channel: Voice, Tone: High Urgency)
+- Post-lapse (0-90 days): "Revival Campaign" (Channel: Voice/Human, Tone: Recovery)
+
+INPUT: Customer profile, policy details, propensity-to-lapse score, payment history, prior conversation history, days_to_due.
 
 YOU MUST DECIDE:
-1. recommended_channel: "email" | "whatsapp" | "voice" (based on customer preference + risk level)
-2. language: Customer's preferred language
-3. tone: "professional" | "warm" | "empathetic" | "urgent" (based on segment + days to due)
+1. recommended_channel: "email" | "whatsapp" | "voice"
+2. language: Customer's preferred language (match 9 major Indian languages)
+3. tone: "professional" | "warm" | "empathetic" | "urgent"
 4. segment_approach: Strategy summary for the planner
-5. timing: Best time to contact
-6. risk_assessment: "low" | "medium" | "high"
+5. timing: Best time to contact (check 41% evening/weekend preference)
+6. risk_assessment: "low" | "medium" | "high" (use propensity score)
 7. special_flags: Any flags (HNI, prior complaints, distress history)
 
 OUTPUT FORMAT (JSON only):
@@ -368,18 +385,22 @@ OUTPUT FORMAT (JSON only):
   "recommended_channel": "whatsapp",
   "language": "English",
   "tone": "warm",
-  "segment_approach": "Budget-conscious customer, lead with value...",
-  "timing": "evening",
+  "segment_approach": "Budget-conscious customer, lead with value and payment options.",
+  "preferred_send_time": "evening",
   "risk_assessment": "medium",
   "special_flags": [],
-  "objective": "Renew term policy via WhatsApp with EMI option"
+  "escalate_to_human": false,
+  "escalation_reason": null,
+  "objective_for_planner": "Renew term policy via WhatsApp with EMI option",
+  "key_value_propositions": ["Life cover continuation", "Family protection"],
+  "payment_options_to_highlight": ["UPI", "Net Banking", "Credit Card"]
 }
 
 RULES:
-- HNI customers (premium >= 1,00,000): always flag for human review
-- High propensity to lapse (>65): prioritize voice channel
+- HNI customers (premium >= 1,00,000): always flag for human review (special_flags: ["HNI"])
+- High propensity to lapse (>65): prioritize voice channel regardless of T-x
 - Customers with complaints: use empathetic tone
-- Never use pressure language
+- Never use pressure language (threatening loss of life/property)
 """
 
 ORCHESTRATOR_USER_TEMPLATE = """
@@ -400,4 +421,28 @@ PRIOR CONVERSATION HISTORY:
 
 Analyze this case and output your strategy JSON.
 """
+
+EMAIL_CRITIQUE_SYSTEM_PROMPT = ""
+EMAIL_CRITIQUE_USER_TEMPLATE = ""
+WHATSAPP_CRITIQUE_SYSTEM_PROMPT = ""
+WHATSAPP_CRITIQUE_USER_TEMPLATE = ""
+VOICE_CRITIQUE_SYSTEM_PROMPT = ""
+VOICE_CRITIQUE_USER_TEMPLATE = ""
+
+# --- DYNAMIC PROMPT LOADING VIA SQLITE ---
+import sys
+from database.sqlite_manager import db
+
+# Capture defaults
+_defaults = {k: v for k, v in list(globals().items()) if k.isupper() and isinstance(v, str)}
+
+# Remove from module namespace so __getattr__ is triggered!
+for k in _defaults:
+    del globals()[k]
+
+def __getattr__(name):
+    if name in _defaults:
+        val = db.get_prompt(name)
+        return val if val is not None else _defaults[name]
+    raise AttributeError(f"module '{__name__}' has no attribute '{name}'")
 

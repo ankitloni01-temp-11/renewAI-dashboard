@@ -4,21 +4,24 @@ services:
   backend:
     build: ./backend
     ports:
-      - "8000:8000"
+      # Map host 8005 to container 8000
+      - "8005:8000"
     environment:
-      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
-      - LANGSMITH_API_KEY=${LANGSMITH_API_KEY}
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY:-}
+      - LANGSMITH_API_KEY=${LANGSMITH_API_KEY:-}
+      - LANGCHAIN_TRACING_V2=true
+      - LANGSMITH_PROJECT=RenewAI
       - DEBUG=true
     volumes:
-      - ./backend:/app
+      # Persist databases across container restarts
+      - ./backend/database:/app/database
+      - ./backend/chroma_db:/app/chroma_db
     restart: unless-stopped
 
   frontend:
     build: ./frontend
     ports:
       - "3000:3000"
-    environment:
-      - VITE_API_URL=http://localhost:8000
     depends_on:
       - backend
     restart: unless-stopped

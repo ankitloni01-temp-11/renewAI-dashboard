@@ -1,6 +1,7 @@
 """CRM/policy/customer data endpoints using MCP."""
 from fastapi import APIRouter, Query
 from typing import Optional
+import asyncio
 from mcp_client.client import mcp
 
 router = APIRouter(prefix="/api/data", tags=["data"])
@@ -44,8 +45,18 @@ async def get_propensity(policy_id: str):
 @router.get("/objections")
 async def list_objections():
     # Knowledge server search with empty query as a hack for list
-    res = await mcp.call_tool("knowledge", "search_objections", {"query": "", "n": 100})
-    return {"total": len(res.get("results", [])), "objections": res.get("results", [])}
+    try:
+        # Wrap in timeout to prevent hanging the whole page
+        res = await asyncio.wait_for(
+            mcp.call_tool("knowledge", "search_objections", {"query": "", "n": 100}),
+            timeout=2.0
+        )
+        if not isinstance(res, dict): return {"total": 0, "objections": []}
+        objs = res.get("results", [])
+        return {"total": len(objs), "objections": objs}
+    except Exception as e:
+        print(f"Objections error (likely timeout): {e}")
+        return {"total": 0, "objections": [], "error": "Knowledge server timeout or error"}
 
 @router.get("/objections/search")
 async def search_objections(q: str = ""):

@@ -1,20 +1,29 @@
-"""Planner Critique Agent using MCP."""
 import json, time, uuid, asyncio
 from typing import Dict, Any
-import google.generativeai as genai
-from config import GOOGLE_API_KEY, GEMINI_MODEL
 from mcp_client.client import mcp
-
-genai.configure(api_key=GOOGLE_API_KEY)
+from agents.gemini_caller import call_gemini
+import prompts.all_prompts as ap
 
 async def run_planner_critique(policy_id: str, plan: Dict, orch_result: Dict) -> Dict[str, Any]:
     start = time.time()
     policy = await mcp.call_tool("data", "get_policy", {"policy_id": policy_id})
     customer = await mcp.call_tool("data", "get_customer_by_policy", {"policy_id": policy_id})
+    compliance_rules = await mcp.call_tool("knowledge", "get_compliance_rules", {})
     
-    # Generic critique logic for demo
-    score = 8.5
-    verdict = "APPROVED" if score > 7 else "REVISE"
+    user_prompt = ap.CRITIQUE_USER_TEMPLATE.format(
+        content_to_evaluate=json.dumps(plan, indent=2),
+        original_plan=" стратегическое решение Orchestrator: " + json.dumps(orch_result, indent=2),
+        customer_json=json.dumps(customer, indent=2),
+        policy_json=json.dumps(policy, indent=2),
+        compliance_rules=json.dumps(compliance_rules)
+    )
+    
+    result_call = await call_gemini(ap.CRITIQUE_SYSTEM_PROMPT, user_prompt, use_pro=True)
+    result = result_call.get("data", {}) if result_call["success"] else {}
+    
+    score = result.get("overall_score", 0)
+    verdict = result.get("verdict", "REJECTED")
+    feedback = result.get("specific_feedback", "No feedback provided.")
     
     latency_ms = int((time.time() - start) * 1000)
     await mcp.call_tool("data", "write_audit_entry", {
@@ -24,7 +33,9 @@ async def run_planner_critique(policy_id: str, plan: Dict, orch_result: Dict) ->
             "action": "critique_plan",
             "input_summary": f"Critiquing plan for {policy_id}",
             "output_summary": f"Score: {score} | Verdict: {verdict}",
-            "verdict": verdict, "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ")
+            "verdict": verdict, "timestamp": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "full_output": result,
+            "latency_ms": latency_ms
         }
     })
-    return {"score": score, "verdict": verdict, "feedback": "Plan looks solid."}
+    return {"score": score, "verdict": verdict, "feedback": feedback}

@@ -1,7 +1,19 @@
-FROM node:20-slim
+# Build stage
+FROM node:18-alpine AS build
+
 WORKDIR /app
-COPY package.json .
+COPY package*.json ./
 RUN npm install
+
 COPY . .
+RUN npm run build
+
+# Production stage
+FROM nginx:alpine
+# Copy built files
+COPY --from=build /app/dist /usr/share/nginx/html
+# Copy custom Nginx configuration to support React Router and API proxying
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 EXPOSE 3000
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+CMD ["nginx", "-g", "daemon off;"]

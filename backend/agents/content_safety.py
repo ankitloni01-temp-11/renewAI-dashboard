@@ -99,30 +99,37 @@ def check_irdai_compliance(text: str, product_type: str = "term") -> Dict[str, A
 
     # AI self-identification
     ai_phrases = ["ai-powered", "ai powered", "artificial intelligence", "automated assistant",
-                  "renewal assistant", "digital assistant", "bot"]
+                  "renewal assistant", "digital assistant", "bot", "virtual assistant"]
     if not any(phrase in text_lower for phrase in ai_phrases):
-        issues.append({"rule": "AI self-identification missing", "severity": "high"})
+        issues.append({"rule": "AI self-identification missing (IRDAI Circular 2024)", "severity": "high"})
+
+    # Brand identification
+    if "suraksha" not in text_lower:
+        issues.append({"rule": "Company name 'Suraksha' missing in communication", "severity": "medium"})
 
     # Opt-out mechanism
-    opt_out_phrases = ["opt out", "stop", "1800", "unsubscribe", "reply stop"]
+    opt_out_phrases = ["opt out", "stop", "1800", "unsubscribe", "reply stop", "non-consent"]
     if not any(phrase in text_lower for phrase in opt_out_phrases):
-        issues.append({"rule": "Opt-out mechanism missing", "severity": "high"})
+        issues.append({"rule": "Opt-out mechanism missing (IRDAI Consumer Protection)", "severity": "high"})
 
     # ULIP guaranteed returns
     if product_type == "ulip":
         for phrase in ULIP_BANNED:
             if phrase in text_lower:
-                issues.append({"rule": f"Guaranteed return promise detected: '{phrase}'", "severity": "critical"})
+                issues.append({"rule": f"Guaranteed return promise detected in ULIP: '{phrase}'", "severity": "critical"})
 
     # Pressure language
     for phrase in PRESSURE_LANGUAGE:
         if phrase in text_lower:
-            issues.append({"rule": f"Pressure language detected: '{phrase}'", "severity": "high"})
+            issues.append({"rule": f"Aggressive pressure language detected: '{phrase}'", "severity": "high"})
 
-    # Grace period accuracy (if mentioned)
+    # Grace period accuracy
     if "grace period" in text_lower:
-        if "15 day" in text_lower and "annual" in text_lower:
-            issues.append({"rule": "Grace period incorrectly stated as 15 days for annual mode (should be 30)", "severity": "medium"})
+        # IRDAI Master Circular: 30 days for annual/half-yearly, 15 days for monthly
+        if "15 day" in text_lower and ("annual" in text_lower or "yearly" in text_lower):
+            issues.append({"rule": "Grace period incorrectly stated as 15 days for yearly mode (should be 30)", "severity": "high"})
+        if "30 day" not in text_lower and ("annual" in text_lower or "yearly" in text_lower):
+            issues.append({"rule": "Mandatory 30-day grace period for yearly mode not explicitly stated", "severity": "medium"})
 
     return {
         "compliant": len([i for i in issues if i["severity"] in ["high", "critical"]]) == 0,
